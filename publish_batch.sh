@@ -1,6 +1,7 @@
 #!/bin/bash
 # Publica los paquetes pendientes (hasta tocar el límite diario de pub.dev de 12 nuevos/día).
 # Reescribe .pending.txt con los que falten. Idempotente: re-ejecutar al día siguiente continúa.
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 ROOT=/Users/nicolas.rodsevich/src/jpl
 PEND="$ROOT/.pending.txt"
 LOG="$ROOT/.cascade.log"
@@ -24,4 +25,11 @@ while read -r d; do
 done < "$PEND"
 printf '%s\n' "${remaining[@]}" > "$PEND"
 echo "Lote: $done_count publicados | $(grep -c . "$PEND" 2>/dev/null || echo 0) pendientes"
-[ ! -s "$PEND" ] && echo "=== TODOS PUBLICADOS ===" && rm -f "$PEND"
+if [ ! -s "$PEND" ]; then
+  echo "=== TODOS PUBLICADOS ===" >> "$LOG"
+  rm -f "$PEND"
+  # autolimpieza al terminar: descargar el LaunchAgent (y cron si existiera)
+  launchctl unload "$HOME/Library/LaunchAgents/com.jpl.publish.plist" 2>/dev/null || true
+  rm -f "$HOME/Library/LaunchAgents/com.jpl.publish.plist" 2>/dev/null || true
+  crontab -l 2>/dev/null | grep -v 'publish_batch.sh' | crontab - 2>/dev/null || true
+fi

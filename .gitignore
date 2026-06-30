@@ -13,3 +13,9 @@ pubspec.lock
 .staging/
 # workflow scratch
 .jpl-salvage-workflow.js
+
+# Estado local de publicación
+.pending.txt
+.cascade.log
+.cron.log
+run_cascade.sh
