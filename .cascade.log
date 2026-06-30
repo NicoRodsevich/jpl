@@ -1,0 +1,24 @@
+OK jpl_actions_flutter_deploy_pages
+OK jpl_actions_flutter_validate
+OK jpl_child_builder
+FAIL jpl_dart_version_autotag :: 
+FAIL jpl_dynamic_widget_annotation :: 
+OK jpl_execution_timer
+OK jpl_flexible_table
+OK jpl_font_awesome_flutter_named
+OK jpl_form_floating_action_button
+FAIL jpl_grpc_googleapis :: │           │   │   ├── error_reason.pb.dart (<1 KB) │           │   │   ├── error_reason.pbenum.dart (27 KB) 
+OK jpl_ionicons_named
+SKIP jpl_json_class (canary ya publicado)
+OK jpl_json_schema2
+OK jpl_json_theme_annotation
+OK jpl_launch_args
+FAIL jpl_license_checker2 :: 
+FAIL jpl_material_icons_named :: 
+FAIL jpl_rest_client :: 
+FAIL jpl_rest_pubsub :: 
+FAIL jpl_screen_streamer :: 
+FAIL jpl_web_socket_channel_connect :: 
+FAIL jpl_websafe_network_image :: 
+FAIL jpl_websafe_platform :: 
+FAIL jpl_websafe_svg :: 
