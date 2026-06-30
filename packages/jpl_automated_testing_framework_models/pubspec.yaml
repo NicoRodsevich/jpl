@@ -1,0 +1,43 @@
+name: jpl_automated_testing_framework_models
+description: 'Core models for the automated testing framework to provide pure dart support for server side integrations.'
+version: '2.0.10+8'
+homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_models'
+
+environment: 
+  sdk: ^3.6.0
+dependencies: 
+  convert: '^3.1.1'
+  jpl_json_class: "^3.0.1"
+  logging: '^1.1.1'
+  meta: '^1.8.0'
+  pointycastle: '^3.7.3'
+  uuid: '^4.5.1'
+
+dev_dependencies: 
+  test: '^1.24.2'
+
+ignore_updates: 
+  - 'archive'
+  - 'async'
+  - 'boolean_selector'
+  - 'characters'
+  - 'charcode'
+  - 'collection'
+  - 'clock'
+  - 'crypto'
+  - 'fake_async'
+  - 'file'
+  - 'matcher'
+  - 'material_color_utilities'
+  - 'meta'
+  - 'path'
+  - 'source_span'
+  - 'stack_trace'
+  - 'stream_channel'
+  - 'string_scanner'
+  - 'sync_http'
+  - 'term_glyph'
+  - 'test_api'
+  - 'typed_data'
+  - 'vector_math'
+  - 'webdriver'

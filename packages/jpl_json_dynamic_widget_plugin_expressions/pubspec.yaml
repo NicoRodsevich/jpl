@@ -1,0 +1,29 @@
+name: jpl_json_dynamic_widget_plugin_expressions
+description: A plugin to the JSON Dynamic Widget to provide Font Awesome support to the widgets
+homepage: https://github.com/peiffer-innovations/json_dynamic_widget_plugin_expressions
+
+version: 1.0.0+4
+
+environment:
+  sdk: ^3.6.0
+analyzer:
+  exclude: [lib/generated/**]
+
+dependencies:
+  jpl_child_builder: "^2.0.2"
+  expressions: ^0.2.3
+  flutter:
+    sdk: flutter
+  jpl_json_class: "^3.0.1"
+  jpl_json_dynamic_widget: "^12.0.0"
+  jpl_json_theme: "^11.0.0"
+  logging: ^1.0.2
+  meta: ^1.7.0
+  uuid: ^4.1.0
+
+false_secrets:
+  - example/web/index.html
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

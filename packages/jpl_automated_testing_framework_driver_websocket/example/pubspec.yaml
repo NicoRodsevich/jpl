@@ -1,0 +1,68 @@
+name: 'example'
+description: 'Example project for the Automated Testing Framework.'
+publish_to: 'none'
+version: '1.0.0+12'
+
+environment: 
+  sdk: '>=2.19.0 <4.0.0'
+
+dependencies: 
+  jpl_automated_testing_framework_driver_websocket: 
+    path: '../'
+  jpl_automated_testing_framework_example: '^2.3.2'
+  flutter: 
+    sdk: 'flutter'
+
+dev_dependencies: 
+  flutter_test: 
+    sdk: 'flutter'
+
+
+flutter_icons: 
+  android: true
+  ios: true
+  image_path: 'assets-src/icon.png'
+
+flutter_native_splash: 
+  image: 'assets-src/splash.png'
+  color: '212121'
+  android_disable_fullscreen: true
+
+flutter: 
+  uses-material-design: true
+  assets: 
+    - 'assets/config/'
+  fonts: 
+    - 
+      family: 'MaterialIcons'
+      fonts: 
+        - 
+          asset: 'assets-src/MaterialIcons-Regular.ttf'
+
+
+
+ignore_updates: 
+  - 'archive'
+  - 'async'
+  - 'boolean_selector'
+  - 'characters'
+  - 'charcode'
+  - 'collection'
+  - 'clock'
+  - 'crypto'
+  - 'fake_async'
+  - 'file'
+  - 'matcher'
+  - 'material_color_utilities'
+  - 'meta'
+  - 'path'
+  - 'source_span'
+  - 'stack_trace'
+  - 'stream_channel'
+  - 'string_scanner'
+  - 'sync_http'
+  - 'term_glyph'
+  - 'test_api'
+  - 'typed_data'
+  - 'vector_math'
+  - 'webdriver'

@@ -1,0 +1,60 @@
+<!-- jpl-unsupported -->
+> ⚠️ **No soportado / no publicado.** Este fork depende de un upstream discontinuado (Firebase legacy) cuya migración excede un bump de SDK. Se conserva en el monorepo como referencia, pero NO se publica en pub.dev.
+
+<!-- jpl-fork-notice -->
+> ### 🛡️ Fork — Jeff Peiffer Legacy (`jpl_`)
+> Este paquete (`jpl_automated_testing_framework_plugin_firebase_storage`) es un **fork** de [`automated_testing_framework_plugin_firebase_storage`](https://github.com/peiffer-innovations/automated_testing_framework_plugin_firebase_storage), originalmente creado por Jeff Peiffer y **archivado** (read-only) junto con toda la org [`peiffer-innovations`](https://github.com/peiffer-innovations).
+>
+> El prefijo **`jpl_`** significa **Jeff Peiffer Legacy**: mantenemos vivo el legado de estos paquetes, bumpeados a las últimas versiones de Dart/Flutter, en el monorepo `jpl`.
+>
+> Licencia original conservada. El crédito del diseño y la implementación original es de Jeff Peiffer.
+
+**ARCHIVED**: This is no longer maintained to focus on other packages.
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [automated_testing_framework_plugin_firebase_storage](#automated_testing_framework_plugin_firebase_storage)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Quick Start](#quick-start)
+  - [Supported Platforms](#supported-platforms)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# automated_testing_framework_plugin_firebase_storage
+
+## Table of Contents
+
+* [Introduction](#introduction)
+* [Quick Start](#quick-start)
+* [Supported Platforms](#supported-platforms)
+
+
+## Introduction
+
+The first step in the process is to make sure your app is setup and registered with Google's Firebase console and the appropriate files have been added to your application's manifests.  For a great guide on this process, see [https://firebase.flutter.dev/docs/overview](https://firebase.flutter.dev/docs/overview).
+
+As a note, the example app is a fully functioning app on Firebase Storage, but you must add in your own project.  You don't get to use mine at my cost...  :)
+
+
+## Quick Start
+
+In addition to the Firebase Storage metadata files, the example also requires a file under `assets/login.json` that follows this structure:
+
+```
+{
+  "username": "username-goes-here",
+  "password": "password-goes-here"
+}
+```
+
+This is used to log in to Firebase using the email / password mode and is designed to encourage good test behavior by starting with an authenticated mode rather than a "world read / world write" mode that can be dangerous for your data.
+
+Once that file, plus the Firebase Storage metadata files, is provided you should have a working example that can read, write, and report out tests.
+
+
+## Supported Platforms
+
+This has been tested on Android and iOS.

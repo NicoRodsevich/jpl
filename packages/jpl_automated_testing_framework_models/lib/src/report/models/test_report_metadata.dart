@@ -1,0 +1,88 @@
+import 'package:jpl_automated_testing_framework_models/automated_testing_framework_models.dart';
+import 'package:jpl_json_class/json_class.dart';
+import 'package:meta/meta.dart';
+
+@immutable
+class TestReportMetadata extends JsonClass {
+  TestReportMetadata({
+    this.deviceInfo,
+    this.id,
+    this.numSteps,
+    this.passedSteps,
+    this.success,
+    this.suiteName,
+    this.testName,
+    this.testVersion,
+    this.timestamp,
+  })  : assert(testName?.isNotEmpty == true),
+        assert(timestamp != null);
+
+  final TestDeviceInfo? deviceInfo;
+  final String? id;
+  final int? numSteps;
+  final int? passedSteps;
+  final bool? success;
+  final String? suiteName;
+  final String? testName;
+  final int? testVersion;
+  final DateTime? timestamp;
+
+  static TestReportMetadata? fromDynamic(
+    dynamic map, {
+    String? id,
+  }) {
+    TestReportMetadata? result;
+
+    if (map != null) {
+      result = TestReportMetadata(
+        deviceInfo: TestDeviceInfo.fromDynamic(map['deviceInfo']),
+        id: id ?? map['id'],
+        numSteps: JsonClass.parseInt(map['numSteps']),
+        passedSteps: JsonClass.parseInt(map['passedSteps']),
+        success: JsonClass.parseBool(map['success']),
+        suiteName: map['suiteName'],
+        testName: map['testName'],
+        testVersion: map['testVersion'],
+        timestamp: JsonClass.parseUtcMillis(map['timestamp']),
+      );
+    }
+
+    return result;
+  }
+
+  static TestReportMetadata? fromTestReport(
+    TestReport? report, {
+    String? id,
+  }) {
+    TestReportMetadata? result;
+
+    if (report != null) {
+      result = TestReportMetadata(
+        deviceInfo: report.deviceInfo,
+        id: id ?? report.id,
+        numSteps: report.steps.length,
+        passedSteps: report.passedSteps,
+        success: report.success,
+        suiteName: report.suiteName,
+        testName: report.name,
+        testVersion: report.version,
+        timestamp: report.endTime,
+      );
+    }
+
+    return result;
+  }
+
+  @override
+  Map<String, dynamic> toJson() => {
+        'deviceInfo': deviceInfo?.toJson(),
+        'id': id,
+        'numSteps': numSteps,
+        'passedSteps': passedSteps,
+        'success': success,
+        'suiteName': suiteName,
+        'testName': testName,
+        'testVersion': testVersion,
+        'timestamp': timestamp?.millisecondsSinceEpoch,
+      };
+}

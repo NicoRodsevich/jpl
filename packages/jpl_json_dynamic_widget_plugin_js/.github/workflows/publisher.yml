@@ -1,0 +1,47 @@
+name: Flutter Publisher
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/publisher.yml
+      - pubspec.yaml
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+
+      - name: Run Codegen
+        run: |
+          flutter packages get
+          dart run build_runner build --delete-conflicting-outputs -v
+
+      - name: Validate
+        uses: peiffer-innovations/actions-flutter-validate@v2
+        with:
+          generate_code: true
+        
+      - name: Integration Test
+        run: |
+          sudo apt update -y && sudo apt upgrade -y;
+          sudo apt install -y curl git unzip xz-utils zip libglu1-mesa clang cmake git ninja-build pkg-config libgtk-3-dev liblzma-dev libstdc++-12-dev xvfb
+          export DISPLAY=:99.0
+          Xvfb :99 -screen 0 1024x768x24 > /dev/null 2>&1 &
+          cd example
+          DISPLAY=:99.0 flutter drive --driver=integration_test/driver.dart --target=integration_test/js_service_test.dart -d linux
+
+      - name: Publish
+        uses: peiffer-innovations/actions-pub-publish@v1.0.2
+        with:
+          credentials: ${{ secrets.CREDENTIAL_JSON }}
+
+      - uses: peiffer-innovations/actions-dart-version-autotag@v2
+        with:
+          token: ${{ secrets.REPO_TOKEN }}

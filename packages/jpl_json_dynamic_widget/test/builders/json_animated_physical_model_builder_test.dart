@@ -1,0 +1,21 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+
+void main() {
+  test('type', () {
+    const type = JsonAnimatedPhysicalModelBuilder.kType;
+
+    expect(type, 'animated_physical_model');
+    expect(
+      JsonWidgetRegistry.instance.getWidgetBuilder(type)({
+            'color': '#FFF',
+            'duration': 1000,
+            'elevation': 0,
+            'shadowColor': '#000',
+            'shape': 'rectangle',
+          })
+          is JsonAnimatedPhysicalModelBuilder,
+      true,
+    );
+  });
+}

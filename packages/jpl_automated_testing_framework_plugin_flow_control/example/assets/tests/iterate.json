@@ -1,0 +1,41 @@
+{
+  "active": true,
+  "name": "Iterate",
+  "steps": [{
+      "id": "tap",
+      "values": {
+        "testableId": "test_page_Numbers"
+      }
+    },
+    {
+      "id": "iterate",
+      "values": {
+        "start": "0",
+        "end": "40",
+        "step": {
+          "id": "multi_step",
+          "values": {
+            "steps": [{
+                "id": "scroll_until_visible",
+                "values": {
+                  "increment": "200",
+                  "testableId": "numbers_{{_iterateNum}}"
+                }
+              },
+              {
+                "id": "assert_value",
+                "values": {
+                  "equals": "true",
+                  "testableId": "numbers_{{_iterateNum}}",
+                  "value": "Number: {{_iterateNum}}"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "suiteName": "Flow Control",
+  "version": 0
+}

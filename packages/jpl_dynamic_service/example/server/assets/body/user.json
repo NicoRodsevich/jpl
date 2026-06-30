@@ -1,0 +1,23 @@
+{
+  "standard": {
+    "greeting": "${greeting}",
+    "name": {
+      "first": "${first_name}",
+      "last": "${last_name}"
+    }
+  },
+  "upper": {
+    "greeting": "${greeting.toUpperCase()}",
+    "name": {
+      "first": "${first_name.toUpperCase()}",
+      "last": "${last_name.toUpperCase()}"
+    }
+  },
+  "lower": {
+    "greeting": "${greeting.toLowerCase()}",
+    "name": {
+      "first": "${first_name.toLowerCase()}",
+      "last": "${last_name.toLowerCase()}"
+    }
+  }
+}

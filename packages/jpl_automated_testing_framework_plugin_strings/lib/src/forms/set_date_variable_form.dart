@@ -1,0 +1,164 @@
+import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_strings/automated_testing_framework_plugin_strings.dart';
+import 'package:flutter/material.dart';
+import 'package:jpl_form_validation/form_validation.dart';
+import 'package:intl/intl.dart';
+import 'package:jpl_static_translations/static_translations.dart';
+
+class SetDateVariableForm extends TestStepForm {
+  const SetDateVariableForm();
+
+  @override
+  bool get supportsMinified => true;
+
+  @override
+  TranslationEntry get title =>
+      TestStringsTranslations.atf_strings_title_set_date_variable;
+
+  @override
+  Widget buildForm(
+    BuildContext context,
+    Map<String, dynamic>? values, {
+    bool minify = false,
+  }) {
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      children: <Widget>[
+        if (minify != true)
+          buildHelpSection(
+            context,
+            TestStringsTranslations.atf_strings_help_set_date_variable,
+            minify: minify,
+          ),
+        buildValuesSection(
+          context,
+          [
+            buildEditText(
+              context: context,
+              id: 'variableName',
+              label: TestStepTranslations.atf_form_variable_name,
+              values: values!,
+            ),
+            const SizedBox(height: 16.0),
+            buildEditText(
+              context: context,
+              id: 'date',
+              label: TestStringsTranslations.atf_strings_form_date,
+              validators: [
+                _DateValidator(),
+              ],
+              values: values,
+            ),
+            const SizedBox(height: 16.0),
+            buildDropdown(
+              context: context,
+              defaultValue: 'false',
+              id: 'utc',
+              items: [
+                'true',
+                'false',
+              ],
+              label: TestStringsTranslations.atf_strings_form_utc,
+              values: values,
+            ),
+            const SizedBox(height: 16.0),
+            buildEditText(
+              context: context,
+              id: 'format',
+              label: TestStringsTranslations.atf_strings_form_format,
+              values: values,
+            ),
+            const SizedBox(height: 16.0),
+            buildEditText(
+              context: context,
+              id: 'offsetDays',
+              label: TestStringsTranslations.atf_strings_form_offset_days,
+              validators: [NumberValidator(allowDecimal: false)],
+              values: values,
+            ),
+            const SizedBox(height: 16.0),
+            buildEditText(
+              context: context,
+              id: 'offsetHours',
+              label: TestStringsTranslations.atf_strings_form_offset_hours,
+              validators: [NumberValidator(allowDecimal: false)],
+              values: values,
+            ),
+            const SizedBox(height: 16.0),
+            buildEditText(
+              context: context,
+              id: 'offsetMinutes',
+              label: TestStringsTranslations.atf_strings_form_offset_minutes,
+              validators: [NumberValidator(allowDecimal: false)],
+              values: values,
+            ),
+            const SizedBox(height: 16.0),
+            buildEditText(
+              context: context,
+              id: 'offsetSeconds',
+              label: TestStringsTranslations.atf_strings_form_offset_seconds,
+              validators: [NumberValidator(allowDecimal: false)],
+              values: values,
+            ),
+          ],
+          minify: minify,
+        ),
+      ],
+    );
+  }
+}
+
+class _DateValidator extends ValueValidator {
+  static const kType = 'date';
+
+  @override
+  String get type => kType;
+
+  @override
+  String? validate({
+    required String label,
+    required String? value,
+  }) {
+    String? error;
+
+    if (value?.isNotEmpty == true) {
+      DateTime? dateTime;
+      try {
+        try {
+          dateTime = DateTime.fromMillisecondsSinceEpoch(int.parse(value!));
+        } catch (e) {
+          // no-op
+        }
+
+        if (dateTime == null) {
+          try {
+            dateTime = DateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'").parse(value!);
+          } catch (e) {
+            // no-op
+          }
+        }
+
+        if (dateTime == null) {
+          try {
+            dateTime = DateFormat("yyyy-MM-dd'T'HH:mm:ss.SSS'Z'").parse(value!);
+          } catch (e) {
+            // no-op
+          }
+        }
+
+        if (dateTime == null) {
+          throw Exception('No date time');
+        }
+      } catch (e) {
+        error = translate(
+          TestStringsTranslations.atf_strings_error_date.value,
+        );
+      }
+    }
+
+    return error;
+  }
+
+  @override
+  Map<String, dynamic> toJson() => {};
+}

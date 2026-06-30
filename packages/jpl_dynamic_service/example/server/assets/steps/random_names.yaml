@@ -1,0 +1,20 @@
+steps:
+  - type: load_network
+    with:
+      requests:
+        - url: https://raw.githubusercontent.com/peiffer-innovations/dynamic_service/main/pages/first_names.json
+          variable: first
+        - url: https://raw.githubusercontent.com/peiffer-innovations/dynamic_service/main/pages/last_names.json
+          variable: last
+  - type: shuffle_list
+    with:
+      list: ${json_path(load_network, '$.first.body.names')}
+      variable: firstNames
+  - type: shuffle_list
+    with:
+      list: ${json_path(load_network, '$.last.body.names')}
+      variable: lastNames
+  - type: set_variables
+    with:
+      first: ${firstNames.first}
+      last: ${lastNames.first}

@@ -1,0 +1,57 @@
+name: jpl_automated_testing_framework
+description: 'A testing framework that allows in app tests to be built and executed in an automated way.'
+version: '5.0.1'
+homepage: 'https://github.com/peiffer-innovations/automated_testing_framework'
+
+environment:
+  sdk: ^3.6.0
+dependencies:
+  jpl_automated_testing_framework_models: "^2.0.10"
+  jpl_child_builder: "^2.0.2"
+  convert: '^3.1.1'
+  device_info_plus: '^11.0.0'
+  flutter:
+    sdk: 'flutter'
+  flutter_markdown: '^0.6.14'
+  flutter_web_plugins:
+    sdk: 'flutter'
+  jpl_form_validation: "^3.2.0"
+  intl: '^0.18.1'
+  jpl_json_class: "^3.0.1"
+  jpl_json_theme: "^11.0.0"
+  logging: '^1.1.1'
+  meta: '^1.8.0'
+  package_info_plus: '^8.0.2'
+  provider: '^6.0.5'
+  jpl_static_translations: "^2.1.2"
+  uuid: '^4.2.1'
+
+dev_dependencies:
+  flutter_test:
+    sdk: 'flutter'
+
+ignore_updates:
+  - 'archive'
+  - 'async'
+  - 'boolean_selector'
+  - 'characters'
+  - 'charcode'
+  - 'collection'
+  - 'clock'
+  - 'crypto'
+  - 'fake_async'
+  - 'file'
+  - 'matcher'
+  - 'material_color_utilities'
+  - 'meta'
+  - 'path'
+  - 'source_span'
+  - 'stack_trace'
+  - 'stream_channel'
+  - 'string_scanner'
+  - 'sync_http'
+  - 'term_glyph'
+  - 'test_api'
+  - 'typed_data'
+  - 'vector_math'
+  - 'webdriver'

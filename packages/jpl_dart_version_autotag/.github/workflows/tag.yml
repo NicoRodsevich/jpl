@@ -1,0 +1,24 @@
+name: Tag
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate
+        uses: peiffer-innovations/actions-flutter-validate@v1
+
+      - name: Create Tag
+        shell: bash
+        run: |
+          set -e
+
+          dart pub global activate -sgit https://github.com/peiffer-innovations/actions-dart-version-autotag
+          dart pub global run dart_version_autotag:tag --token ${{ secrets.GITHUB_TOKEN }} --repository "peiffer-innovations/actions-dart-version-autotag"

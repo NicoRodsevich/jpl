@@ -1,0 +1,31 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/target_platform.json",
+  "type": "string",
+  "title": "TargetPlatform",
+  "oneOf": [
+    {
+      "type": "string",
+      "enum": [
+        "android",
+        "fuchsia",
+        "iOS",
+        "linux",
+        "macOS",
+        "windows"
+      ]
+    },
+    {
+      "type": "string",
+      "pattern": "^\\{\\{.*\\}\\}$"
+    },
+    {
+      "type": "string",
+      "pattern": "##.*##$"
+    },
+    {
+      "type": "string",
+      "pattern": "\\$\\{.*\\}$"
+    }
+  ]
+}

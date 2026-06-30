@@ -1,0 +1,228 @@
+// This is a generated file - do not edit.
+//
+// Generated from google/firestore/admin/v1beta2/field.proto.
+
+// @dart = 3.3
+
+// ignore_for_file: annotate_overrides, camel_case_types, comment_references
+// ignore_for_file: constant_identifier_names
+// ignore_for_file: curly_braces_in_flow_control_structures
+// ignore_for_file: deprecated_member_use_from_same_package, library_prefixes
+// ignore_for_file: non_constant_identifier_names, prefer_relative_imports
+
+import 'dart:core' as $core;
+
+import 'package:protobuf/protobuf.dart' as $pb;
+
+import 'index.pb.dart' as $0;
+
+export 'package:protobuf/protobuf.dart' show GeneratedMessageGenericExtensions;
+
+/// The index configuration for this field.
+class Field_IndexConfig extends $pb.GeneratedMessage {
+  factory Field_IndexConfig({
+    $core.Iterable<$0.Index>? indexes,
+    $core.bool? usesAncestorConfig,
+    $core.String? ancestorField,
+    $core.bool? reverting,
+  }) {
+    final result = create();
+    if (indexes != null) result.indexes.addAll(indexes);
+    if (usesAncestorConfig != null)
+      result.usesAncestorConfig = usesAncestorConfig;
+    if (ancestorField != null) result.ancestorField = ancestorField;
+    if (reverting != null) result.reverting = reverting;
+    return result;
+  }
+
+  Field_IndexConfig._();
+
+  factory Field_IndexConfig.fromBuffer($core.List<$core.int> data,
+          [$pb.ExtensionRegistry registry = $pb.ExtensionRegistry.EMPTY]) =>
+      create()..mergeFromBuffer(data, registry);
+  factory Field_IndexConfig.fromJson($core.String json,
+          [$pb.ExtensionRegistry registry = $pb.ExtensionRegistry.EMPTY]) =>
+      create()..mergeFromJson(json, registry);
+
+  static final $pb.BuilderInfo _i = $pb.BuilderInfo(
+      _omitMessageNames ? '' : 'Field.IndexConfig',
+      package: const $pb.PackageName(
+          _omitMessageNames ? '' : 'google.firestore.admin.v1beta2'),
+      createEmptyInstance: create)
+    ..pPM<$0.Index>(1, _omitFieldNames ? '' : 'indexes',
+        subBuilder: $0.Index.create)
+    ..aOB(2, _omitFieldNames ? '' : 'usesAncestorConfig')
+    ..aOS(3, _omitFieldNames ? '' : 'ancestorField')
+    ..aOB(4, _omitFieldNames ? '' : 'reverting')
+    ..hasRequiredFields = false;
+
+  @$core.Deprecated('See https://github.com/google/protobuf.dart/issues/998.')
+  Field_IndexConfig clone() => deepCopy();
+  @$core.Deprecated('See https://github.com/google/protobuf.dart/issues/998.')
+  Field_IndexConfig copyWith(void Function(Field_IndexConfig) updates) =>
+      super.copyWith((message) => updates(message as Field_IndexConfig))
+          as Field_IndexConfig;
+
+  @$core.override
+  $pb.BuilderInfo get info_ => _i;
+
+  @$core.pragma('dart2js:noInline')
+  static Field_IndexConfig create() => Field_IndexConfig._();
+  @$core.override
+  Field_IndexConfig createEmptyInstance() => create();
+  @$core.pragma('dart2js:noInline')
+  static Field_IndexConfig getDefault() => _defaultInstance ??=
+      $pb.GeneratedMessage.$_defaultFor<Field_IndexConfig>(create);
+  static Field_IndexConfig? _defaultInstance;
+
+  /// The indexes supported for this field.
+  @$pb.TagNumber(1)
+  $pb.PbList<$0.Index> get indexes => $_getList(0);
+
+  /// Output only. When true, the `Field`'s index configuration is set from the
+  /// configuration specified by the `ancestor_field`.
+  /// When false, the `Field`'s index configuration is defined explicitly.
+  @$pb.TagNumber(2)
+  $core.bool get usesAncestorConfig => $_getBF(1);
+  @$pb.TagNumber(2)
+  set usesAncestorConfig($core.bool value) => $_setBool(1, value);
+  @$pb.TagNumber(2)
+  $core.bool hasUsesAncestorConfig() => $_has(1);
+  @$pb.TagNumber(2)
+  void clearUsesAncestorConfig() => $_clearField(2);
+
+  /// Output only. Specifies the resource name of the `Field` from which this field's
+  /// index configuration is set (when `uses_ancestor_config` is true),
+  /// or from which it *would* be set if this field had no index configuration
+  /// (when `uses_ancestor_config` is false).
+  @$pb.TagNumber(3)
+  $core.String get ancestorField => $_getSZ(2);
+  @$pb.TagNumber(3)
+  set ancestorField($core.String value) => $_setString(2, value);
+  @$pb.TagNumber(3)
+  $core.bool hasAncestorField() => $_has(2);
+  @$pb.TagNumber(3)
+  void clearAncestorField() => $_clearField(3);
+
+  /// Output only
+  /// When true, the `Field`'s index configuration is in the process of being
+  /// reverted. Once complete, the index config will transition to the same
+  /// state as the field specified by `ancestor_field`, at which point
+  /// `uses_ancestor_config` will be `true` and `reverting` will be `false`.
+  @$pb.TagNumber(4)
+  $core.bool get reverting => $_getBF(3);
+  @$pb.TagNumber(4)
+  set reverting($core.bool value) => $_setBool(3, value);
+  @$pb.TagNumber(4)
+  $core.bool hasReverting() => $_has(3);
+  @$pb.TagNumber(4)
+  void clearReverting() => $_clearField(4);
+}
+
+/// Represents a single field in the database.
+///
+/// Fields are grouped by their "Collection Group", which represent all
+/// collections in the database with the same id.
+class Field extends $pb.GeneratedMessage {
+  factory Field({
+    $core.String? name,
+    Field_IndexConfig? indexConfig,
+  }) {
+    final result = create();
+    if (name != null) result.name = name;
+    if (indexConfig != null) result.indexConfig = indexConfig;
+    return result;
+  }
+
+  Field._();
+
+  factory Field.fromBuffer($core.List<$core.int> data,
+          [$pb.ExtensionRegistry registry = $pb.ExtensionRegistry.EMPTY]) =>
+      create()..mergeFromBuffer(data, registry);
+  factory Field.fromJson($core.String json,
+          [$pb.ExtensionRegistry registry = $pb.ExtensionRegistry.EMPTY]) =>
+      create()..mergeFromJson(json, registry);
+
+  static final $pb.BuilderInfo _i = $pb.BuilderInfo(
+      _omitMessageNames ? '' : 'Field',
+      package: const $pb.PackageName(
+          _omitMessageNames ? '' : 'google.firestore.admin.v1beta2'),
+      createEmptyInstance: create)
+    ..aOS(1, _omitFieldNames ? '' : 'name')
+    ..aOM<Field_IndexConfig>(2, _omitFieldNames ? '' : 'indexConfig',
+        subBuilder: Field_IndexConfig.create)
+    ..hasRequiredFields = false;
+
+  @$core.Deprecated('See https://github.com/google/protobuf.dart/issues/998.')
+  Field clone() => deepCopy();
+  @$core.Deprecated('See https://github.com/google/protobuf.dart/issues/998.')
+  Field copyWith(void Function(Field) updates) =>
+      super.copyWith((message) => updates(message as Field)) as Field;
+
+  @$core.override
+  $pb.BuilderInfo get info_ => _i;
+
+  @$core.pragma('dart2js:noInline')
+  static Field create() => Field._();
+  @$core.override
+  Field createEmptyInstance() => create();
+  @$core.pragma('dart2js:noInline')
+  static Field getDefault() =>
+      _defaultInstance ??= $pb.GeneratedMessage.$_defaultFor<Field>(create);
+  static Field? _defaultInstance;
+
+  /// A field name of the form
+  /// `projects/{project_id}/databases/{database_id}/collectionGroups/{collection_id}/fields/{field_path}`
+  ///
+  /// A field path may be a simple field name, e.g. `address` or a path to fields
+  /// within map_value , e.g. `address.city`,
+  /// or a special field path. The only valid special field is `*`, which
+  /// represents any field.
+  ///
+  /// Field paths may be quoted using ` (backtick). The only character that needs
+  /// to be escaped within a quoted field path is the backtick character itself,
+  /// escaped using a backslash. Special characters in field paths that
+  /// must be quoted include: `*`, `.`,
+  /// ``` (backtick), `[`, `]`, as well as any ascii symbolic characters.
+  ///
+  /// Examples:
+  /// (Note: Comments here are written in markdown syntax, so there is an
+  ///  additional layer of backticks to represent a code block)
+  /// `\`address.city\`` represents a field named `address.city`, not the map key
+  /// `city` in the field `address`.
+  /// `\`*\`` represents a field named `*`, not any field.
+  ///
+  /// A special `Field` contains the default indexing settings for all fields.
+  /// This field's resource name is:
+  /// `projects/{project_id}/databases/{database_id}/collectionGroups/__default__/fields/*`
+  /// Indexes defined on this `Field` will be applied to all fields which do not
+  /// have their own `Field` index configuration.
+  @$pb.TagNumber(1)
+  $core.String get name => $_getSZ(0);
+  @$pb.TagNumber(1)
+  set name($core.String value) => $_setString(0, value);
+  @$pb.TagNumber(1)
+  $core.bool hasName() => $_has(0);
+  @$pb.TagNumber(1)
+  void clearName() => $_clearField(1);
+
+  /// The index configuration for this field. If unset, field indexing will
+  /// revert to the configuration defined by the `ancestor_field`. To
+  /// explicitly remove all indexes for this field, specify an index config
+  /// with an empty list of indexes.
+  @$pb.TagNumber(2)
+  Field_IndexConfig get indexConfig => $_getN(1);
+  @$pb.TagNumber(2)
+  set indexConfig(Field_IndexConfig value) => $_setField(2, value);
+  @$pb.TagNumber(2)
+  $core.bool hasIndexConfig() => $_has(1);
+  @$pb.TagNumber(2)
+  void clearIndexConfig() => $_clearField(2);
+  @$pb.TagNumber(2)
+  Field_IndexConfig ensureIndexConfig() => $_ensure(1);
+}
+
+const $core.bool _omitFieldNames =
+    $core.bool.fromEnvironment('protobuf.omit_field_names');
+const $core.bool _omitMessageNames =
+    $core.bool.fromEnvironment('protobuf.omit_message_names');

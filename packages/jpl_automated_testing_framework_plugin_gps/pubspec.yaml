@@ -1,0 +1,50 @@
+name: jpl_automated_testing_framework_plugin_gps
+description: "Plugin to provide GPS based testing capabilities to the Automated Testing Framework."
+homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_plugin_gps'
+version: '2.0.2+14'
+
+environment:
+  sdk: ^3.6.0
+dependencies:
+  jpl_automated_testing_framework: "^5.0.1"
+  flutter:
+    sdk: 'flutter'
+  geolocator: '^11.0.0'
+  jpl_form_validation: "^3.2.0"
+  jpl_json_class: "^3.0.1"
+  logging: '^1.1.1'
+  jpl_static_translations: "^2.1.2"
+
+dev_dependencies:
+  flutter_test:
+    sdk: 'flutter'
+
+
+flutter:
+  uses-material-design: true
+
+ignore_updates:
+  - 'archive'
+  - 'async'
+  - 'boolean_selector'
+  - 'characters'
+  - 'charcode'
+  - 'collection'
+  - 'clock'
+  - 'crypto'
+  - 'fake_async'
+  - 'file'
+  - 'matcher'
+  - 'material_color_utilities'
+  - 'meta'
+  - 'path'
+  - 'source_span'
+  - 'stack_trace'
+  - 'stream_channel'
+  - 'string_scanner'
+  - 'sync_http'
+  - 'term_glyph'
+  - 'test_api'
+  - 'typed_data'
+  - 'vector_math'
+  - 'webdriver'

@@ -1,0 +1,55 @@
+{
+  "type": "set_value",
+  "args": {
+    "url": "https://google.github.io/charts/flutter/example/time_series_charts/line_annotation",
+    "title": "Line Annotation",
+    "data": [
+      {
+        "date": "2017-9-19",
+        "value": 5
+      },
+      {
+        "date": "2017-9-26",
+        "value": 25
+      },
+      {
+        "date": "2017-10-3",
+        "value": 100
+      },
+      {
+        "date": "2017-10-10",
+        "value": 75
+      }
+    ]
+  },
+  "child": {
+    "type": "set_value",
+    "args": {
+      "series": "${create_series({'type':'DateTime', 'items':data, 'name':'Desktop', 'domain':'$.date', 'measure':'$.value'})}"
+    },
+    "child": {
+      "type": "time_series_chart",
+      "args": {
+        "animate": false,
+        "behaviors": {
+          "annotations": [
+            {
+              "axisType": "domain",
+              "startLabel": "Oct 4",
+              "type": "line_annotation",
+              "value": "2017-10-4"
+            },
+            {
+              "axisType": "domain",
+              "startLabel": "Oct 15",
+              "type": "line_annotation",
+              "value": "2017-10-15"
+            }
+          ],
+          "type": "range_annotation"
+        },
+        "series": "${series}"
+      }
+    }
+  }
+}

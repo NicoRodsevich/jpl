@@ -1,0 +1,22 @@
+name: launch_args_example
+description: Demonstrates how to use the launch_args plugin.
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  jpl_launch_args:
+    path: ../
+
+dev_dependencies:
+  flutter_lints: '^4.0.0'
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

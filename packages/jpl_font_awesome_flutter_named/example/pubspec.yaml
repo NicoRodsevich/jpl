@@ -1,0 +1,41 @@
+name: font_awesome_flutter_example
+description: The Font Awesome Flutter Gallery
+
+dependencies:
+  flutter:
+    sdk: flutter
+  jpl_font_awesome_flutter_named:
+    path: ../
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+flutter:
+  uses-material-design: true
+
+ignore_updates:
+  - 'archive'
+  - 'async'
+  - 'boolean_selector'
+  - 'characters'
+  - 'charcode'
+  - 'collection'
+  - 'clock'
+  - 'crypto'
+  - 'fake_async'
+  - 'file'
+  - 'matcher'
+  - 'material_color_utilities'
+  - 'meta'
+  - 'path'
+  - 'source_span'
+  - 'stack_trace'
+  - 'stream_channel'
+  - 'string_scanner'
+  - 'sync_http'
+  - 'term_glyph'
+  - 'test_api'
+  - 'typed_data'
+  - 'uuid'
+  - 'vector_math'
+  - 'webdriver'

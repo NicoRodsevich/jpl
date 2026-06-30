@@ -1,0 +1,28 @@
+{
+  "type": "scaffold",
+  "args": {
+    "appBar": {
+      "type": "app_bar",
+      "args": {
+        "title": {
+          "type": "text",
+          "listen": [
+            "title"
+          ],
+          "args": {
+            "text": "${title}"
+          }
+        }
+      }
+    },
+    "body": {
+      "type": "markdown",
+      "listen": [
+        "data"
+      ],
+      "args": {
+        "data": "${data}"
+      }
+    }
+  }
+}

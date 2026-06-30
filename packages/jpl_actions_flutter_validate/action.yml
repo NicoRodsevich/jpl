@@ -1,0 +1,118 @@
+# action.yml
+name: 'Validate Dart/Flutter package'
+description: 'Validate Dart/Flutter package'
+inputs:
+  channel:
+    description: '(Optional) Flutter / Dart channel to use (default: stable'
+    required: false
+    default: 'stable'
+  flutter_version:
+    description: '(Optional) Flutter version to use'
+    default: 'any'
+    required: false
+  generate_code:
+    description: '(Optional) Flag to state whether or not to run the code generator.'
+    default: 'false'
+    required: false
+  path:
+    description: '(Optional) Package directory (default: ".")'
+    required: false
+    default: '.'
+  sarif_category:
+    description: '(Optional) Name of the security category.'
+    required: false
+    default: 'security-results'
+  sarif_file:
+    description: '(Optional) Name of the security output file.'
+    required: false
+    default: 'results.sarif'
+  skip_sarif:
+    description: '(Optional) Set to true to skip uploading the sarif file.'
+    required: false
+    default: 'false'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Setup Flutter
+      uses: subosito/flutter-action@v2
+      with:
+        channel: ${{ inputs.channel }}
+        flutter-version: ${{ inputs.flutter_version }}
+
+    - name: Validate
+      shell: bash
+      id: validate
+      run: |
+
+        if grep -q flutter: "pubspec.yaml"; then 
+          flutter packages get
+          if test "${{ inputs.generate_code }}" = "true"; then
+            dart run build_runner build --delete-conflicting-outputs -v
+            if test -d "example"; then
+              cd example
+              if grep -q build_runner: "pubspec.yaml"; then 
+                dart run build_runner build --delete-conflicting-outputs -v
+              fi
+              cd ..
+            fi
+          fi
+          dart format lib test # --set-exit-if-changed
+          flutter analyze
+          flutter test
+        else
+          dart pub get
+          if test "${{ inputs.generate_code }}" = "true"; then
+            dart run build_runner build --delete-conflicting-outputs -v
+            if test -d "example"; then
+              cd example
+              if grep -q build_runner: "pubspec.yaml"; then 
+                dart run build_runner build --delete-conflicting-outputs -v
+              fi
+              cd ..
+            fi
+          fi
+          dart format lib test # --set-exit-if-changed
+          dart analyze
+          dart test
+        fi
+
+        dart pub global activate license_checker2
+        lic_ck check-licenses -c pubspec.yaml -a
+      working-directory: ${{ inputs.path }}
+
+      # Docs: https://google.github.io/osv-scanner/github-action/
+      # Releases: https://github.com/google/osv-scanner-action/tags
+    - name: 'Run scanner'
+      uses: google/osv-scanner-action/osv-scanner-action@75532bf0bf75464b047d80414dbce04449498365 # v1.7.3
+      with:
+        scan-args: |-
+          --output=${{ inputs.path }}/results.json
+          --format=json
+          -r
+          --skip-git
+          --lockfile ${{ inputs.path }}/pubspec.lock
+          ${{inputs.path}}
+      continue-on-error: true
+    - name: 'Run osv-scanner-reporter'
+      uses: google/osv-scanner-action/osv-reporter-action@75532bf0bf75464b047d80414dbce04449498365 # v1.7.3
+      with:
+        scan-args: |-
+          --output=${{ inputs.path }}/${{ inputs.sarif_file }}
+          --new=${{ inputs.path }}/results.json
+          --gh-annotations=false
+          --fail-on-vuln=true
+    - name: 'Upload artifact'
+      id: 'upload_artifact'
+      if: ${{ !cancelled() && inputs.skip_sarif != 'true' }}
+      uses: actions/upload-artifact@65462800fd760344b1a7b4382951275a0abb4808 # v4.3.3
+      with:
+        name: SARIF file
+        path: ${{ inputs.path }}/${{ inputs.sarif_file }}
+        retention-days: 5
+    - name: 'Upload to code-scanning'
+      if: ${{ !cancelled() && inputs.skip_sarif != 'true' }}
+      uses: github/codeql-action/upload-sarif@d39d31e687223d841ef683f52467bd88e9b21c14 # v3.25.3
+      with:
+        category: ${{ inputs.sarif_category }}
+        sarif_file: ${{ inputs.path }}/${{ inputs.sarif_file }}

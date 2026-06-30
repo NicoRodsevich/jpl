@@ -1,0 +1,20 @@
+import 'package:http/http.dart' as http;
+import 'package:jpl_rest_client/rest_client.dart';
+import 'package:meta/meta.dart';
+
+/// Authorizor to provide `Bearer` tokents.
+@immutable
+class TokenAuthorizer extends Authorizer {
+  /// Constructs the authorizer with the given token to pass to the back end.
+  TokenAuthorizer({
+    required this.token,
+  });
+
+  final String token;
+
+  /// Attaches the token as a `Bearer` token to the `authorization` header.
+  @override
+  Future<void> secure(http.Request httpRequest) async {
+    httpRequest.headers['authorization'] = 'Bearer $token';
+  }
+}

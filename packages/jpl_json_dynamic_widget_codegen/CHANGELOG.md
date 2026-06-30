@@ -1,0 +1,285 @@
+## [4.0.1+5] - January 27, 2026
+
+* Automated dependency updates
+
+
+## [4.0.1+4] - January 20, 2026
+
+* Automated dependency updates
+
+
+## [4.0.1+3] - January 6, 2026
+
+* Automated dependency updates
+
+
+## [4.0.1+2] - November 25, 2025
+
+* Automated dependency updates
+
+
+## [4.0.1+1] - November 18, 2025
+
+* Automated dependency updates
+
+
+## [4.0.1] - November 13th, 2025
+
+* Flutter 3.38
+
+
+## [4.0.0] - November 9th, 2025
+
+* Updated generaters to the latest version
+* Flutter 3.35
+
+
+## [3.0.0] - June 17th, 2025
+
+* Updated `flutter_lints` to `^6.0.0`.
+* Flutter 3.32
+* Fix support for non-required parameters in builders
+
+
+## [2.2.0] - May 4th, 2025
+
+* Pegged [analyzer depenendency to be <7.4](https://pub.dev/packages/analyzer/changelog#740) because Dart is preparing a breaking change (via deprecation) but hasn't bothered to update the [source_gen](https://pub.dev/packages/source_gen) package to absorb said breaking change yet so it breaks generators with no good way to fix the break, or ignore the warnings; which is rarely a great idea either.
+
+
+## [2.1.0+3] - March 11, 2025
+
+* Automated dependency updates
+
+
+## [2.1.0+2] - March 4, 2025
+
+* Automated dependency updates
+
+
+## [2.1.0+1] - February 18, 2025
+
+* Automated dependency updates
+
+
+## [2.1.0] - February 17th, 2025
+
+* Support for analyzer 7.0.0
+* Fix for [Issue #357](https://github.com/peiffer-innovations/json_dynamic_widget/issues/357)
+
+
+## [2.0.0+2] - January 14, 2025
+
+* Automated dependency updates
+
+
+## [2.0.0+1] - December 20th, 2024
+
+* Compatibility with analyzer `>= 6.5.0`
+
+
+## [2.0.0] - December 12th, 2024
+
+* Flutter 3.27
+
+
+## [1.0.6+18] - December 10, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+17] - December 3, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+16] - November 30, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+15] - November 19, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+14] - November 12, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+13] - November 5, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+12] - October 29, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+11] - October 22, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+10] - October 15, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+9] - October 8, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+8] - October 1, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+7] - September 10, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+6] - September 10, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+4] - June 18, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+3] - June 11, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+2] - June 4, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6+1] - May 27, 2024
+
+* Automated dependency updates
+
+
+## [1.0.6] - May 14th, 2024
+
+* Flutter 3.22
+
+
+## [1.0.5+8] - April 9, 2024
+
+* Automated dependency updates
+
+
+## [1.0.5+7] - April 2, 2024
+
+* Automated dependency updates
+
+
+## [1.0.5+6] - March 19, 2024
+
+* Automated dependency updates
+
+
+## [1.0.5+5] - March 5, 2024
+
+* Automated dependency updates
+
+
+## [1.0.5+4] - February 27, 2024
+
+* Automated dependency updates
+
+
+## [1.0.5+3] - February 20, 2024
+
+* Automated dependency updates
+
+
+## [1.0.5+2] - January 16, 2024
+
+* Automated dependency updates
+
+
+## [1.0.5+1] - January 9, 2024
+
+* Automated dependency updates
+
+
+## [1.0.5] - December 27, 2023
+
+* Fix for [https://github.com/peiffer-innovations/json_dynamic_widget/issues/219]
+
+## [1.0.4+5] - December 26, 2023
+
+* Automated dependency updates
+
+
+## [1.0.4+4] - December 19, 2023
+
+* Automated dependency updates
+
+
+## [1.0.4+3] - December 12, 2023
+
+* Automated dependency updates
+
+
+## [1.0.4+2] - November 14, 2023
+
+* Automated dependency updates
+
+
+## [1.0.4+1] - November 7, 2023
+
+* Automated dependency updates
+
+
+## [1.0.4] - November 2nd, 2023
+
+* Update to [flutter_lints](https://pub.dev/packages/flutter_lints) `3.0.0`
+
+
+## [1.0.3+2] - October 28th, 2023
+
+* Better (more correct) fix for [https://github.com/peiffer-innovations/json_dynamic_widget/issues/219]
+
+
+## [1.0.2] - October 18th, 2023
+
+* Updated to call `super.register` if it exists on the registrar
+* Fix for [https://github.com/peiffer-innovations/json_dynamic_widget/issues/219]
+
+
+## [1.0.1+1] - October 3, 2023
+
+* Automated dependency updates
+
+
+## [1.0.1] - September 27th, 2023
+
+* Fix for [https://github.com/peiffer-innovations/json_dynamic_widget/issues/216]
+
+## [1.0.0] - September 16th, 2023
+
+* Release
+
+## [0.9.2] - September 13th, 2023
+
+* Updated to be able to provide a registry and dynamic args for reverse encoding
+
+## [0.9.1] - September 3rd, 2023
+
+* Added the ability to do encoding.
+    * Documentation coming in an upcoming 1.0.0 release
+
+## [0.9.0] - August 12th, 2023
+
+* Initial release
+    * Documentation coming in an upcoming 1.0.0 release

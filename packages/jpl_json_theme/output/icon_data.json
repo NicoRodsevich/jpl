@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://peiffer-innovations.github.io/flutter_json_schemas/schemas/json_theme/icon_data.json",
+  "type": "object",
+  "title": "IconData",
+  "additionalProperties": false,
+  "properties": {
+    "codePoint": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        }
+      ]
+    },
+    "fontFamily": {
+      "type": "string"
+    },
+    "fontFamilyFallback": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fontPackage": {
+      "type": "string"
+    },
+    "matchTextDirection": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "number"
+        },
+        {
+          "type": "boolean"
+        }
+      ]
+    }
+  }
+}

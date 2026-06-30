@@ -1,0 +1,15 @@
+# Dart/Flutter build artifacts
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+*.iml
+.idea/
+# Local-only monorepo wiring (path overrides for local build; pub publish ignores these anyway)
+**/pubspec_overrides.yaml
+pubspec.lock
+# Raw upstream clones (reference only)
+.staging/
+# workflow scratch
+.jpl-salvage-workflow.js

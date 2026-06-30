@@ -1,0 +1,69 @@
+name: jpl_dart_dependency_updater
+description: 'A package that will scan for dependencies in a Dart repo, update them if needed, and can update the repo with them.'
+version: '1.1.0+4'
+homepage: 'https://github.com/peiffer-innovations/actions_dart_dependency_updater'
+
+environment:
+  sdk: ^3.6.0
+dependencies:
+  args: '^2.5.0'
+  github: '^9.24.0'
+  http: '^1.2.2'
+  intl: '^0.19.0'
+  jpl_json_class: "^3.0.1"
+  logging: '^1.2.0'
+  meta: '^1.12.0'
+  pub_api_client: '^2.7.0'
+  pub_semver: '^2.1.4'
+  yaml: '^3.1.2'
+  yaml_writer: '^2.0.0'
+
+dev_dependencies:
+  flutter_lints: ^6.0.0
+  test: '^1.25.8'
+
+permittedLicenses:
+  - 'Apache-2.0'
+  - 'BSD-2-Clause'
+  - 'BSD-3-Clause'
+  - 'MIT'
+  - 'MIT-Modern-Variant'
+  - 'MPL-2.0'
+  - 'Zlib'
+
+packageLicenseOverride:
+  flutter: 'BSD-3-Clause'
+  flutter_driver: 'BSD-3-Clause'
+  flutter_goldens: 'BSD-3-Clause'
+  flutter_localizations: 'BSD-3-Clause'
+  flutter_test: 'BSD-3-Clause'
+  flutter_tools: 'BSD-3-Clause'
+  flutter_web_plugins: 'BSD-3-Clause'
+  fuchsia_remote_debug_protocol: 'BSD-3-Clause'
+  integration_test: 'BSD-3-Clause'
+
+ignore_updates:
+  - 'archive'
+  - 'async'
+  - 'boolean_selector'
+  - 'characters'
+  - 'charcode'
+  - 'collection'
+  - 'clock'
+  - 'crypto'
+  - 'fake_async'
+  - 'file'
+  - 'matcher'
+  - 'material_color_utilities'
+  - 'meta'
+  - 'path'
+  - 'source_span'
+  - 'stack_trace'
+  - 'stream_channel'
+  - 'string_scanner'
+  - 'sync_http'
+  - 'term_glyph'
+  - 'test_api'
+  - 'typed_data'
+  - 'vector_math'
+  - 'webdriver'

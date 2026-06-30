@@ -1,0 +1,27 @@
+import 'dart:convert';
+
+import 'package:http/http.dart' as http;
+import 'package:jpl_rest_client/rest_client.dart';
+import 'package:meta/meta.dart';
+
+/// Authorizor that supports BASIC HTTP Authentication.
+@immutable
+class BasicAuthorizer extends Authorizer {
+  /// Creates the authorizer with the given username and password.
+  BasicAuthorizer({
+    required this.password,
+    required this.username,
+  });
+
+  final String password;
+  final String username;
+
+  /// Secures the request by adding the basic `authorization` header with the
+  /// base64 encoded version of the [username] and [password].
+  @override
+  Future<void> secure(http.Request httpRequest) async {
+    final b64 = base64.encode(utf8.encode('$username:$password'));
+
+    httpRequest.headers['authorization'] = 'Basic $b64';
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "padres",
+      "rootUri": "../../padres",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "as",
+      "rootUri": "../../as",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "angeles",
+      "rootUri": "../../angeles",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "mlb",
+      "rootUri": "../../mlb",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    },
+    {
+      "name": "dodgers",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "3.6"
+    }
+  ],
+  "generated": "2026-06-30T00:00:00.000000Z",
+  "generator": "pub",
+  "generatorVersion": "3.12.2"
+}

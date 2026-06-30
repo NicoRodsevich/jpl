@@ -1,0 +1,15 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+
+void main() {
+  test('type', () {
+    const type = JsonClipPathBuilder.kType;
+
+    expect(type, 'clip_path');
+    expect(
+      JsonWidgetRegistry.instance.getWidgetBuilder(type)({})
+          is JsonClipPathBuilder,
+      true,
+    );
+  });
+}

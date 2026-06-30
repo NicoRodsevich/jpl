@@ -1,0 +1,523 @@
+## [4.0.0+41] - July 1, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+40] - June 24, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+39] - June 19, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+38] - May 20, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+37] - May 6, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+36] - March 18, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+35] - March 11, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+34] - March 4, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+33] - February 25, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+32] - February 18, 2025
+
+* Automated dependency updates
+
+
+## [4.0.0+31] - December 10, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+30] - December 3, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+29] - November 26, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+28] - July 23, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+27] - July 16, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+26] - July 9, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+25] - June 29, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+24] - April 30, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+23] - April 23, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+22] - April 16, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+21] - April 9, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+20] - April 2, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+19] - March 26, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+18] - March 19, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+17] - March 12, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+16] - March 5, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+15] - February 27, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+14] - February 20, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+13] - January 30, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+12] - January 23, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+11] - January 16, 2024
+
+* Automated dependency updates
+
+
+## [4.0.0+10] - December 12, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+9] - December 5, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+8] - November 28, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+7] - November 21, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+6] - November 14, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+5] - October 10, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+4] - October 3, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+3] - September 26, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+2] - September 19, 2023
+
+* Automated dependency updates
+
+
+## [4.0.0+1] - September 16th, 2023
+
+* Updated to use [json_dynamic_widget](https://pub.dev/packages/json_dynamic_widget) version `7.0.0` and updated for code generation.
+
+
+## [3.0.2+10] - September 12, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+9] - August 22, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+8] - August 15, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+7] - August 8, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+6] - August 1, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+5] - July 18, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+4] - July 11, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+3] - July 4, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+2] - June 27, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2+1] - June 20, 2023
+
+* Automated dependency updates
+
+
+## [3.0.2] - June 17th, 2023
+
+* Dart 3.0
+
+
+## [3.0.1+14] - May 30, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+13] - May 9, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+12] - April 25, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+11] - April 18, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+10] - April 11, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+9] - April 4, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+8] - March 28, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+7] - March 21, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+6] - March 14, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+5] - March 7, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+4] - February 28, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+3] - February 14, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+2] - February 7, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1+1] - January 31, 2023
+
+* Automated dependency updates
+
+
+## [3.0.1] - January 24th, 2022
+
+* Flutter 3.7
+
+
+## [3.0.0+31] - January 24, 2023
+
+* Automated dependency updates
+
+
+## [3.0.0+30] - January 17, 2023
+
+* Automated dependency updates
+
+
+## [3.0.0+29] - January 10, 2023
+
+* Automated dependency updates
+
+
+## [3.0.0+28] - January 3, 2023
+
+* Automated dependency updates
+
+
+## [3.0.0+27] - December 27, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+26] - December 13, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+25] - December 6, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+24] - November 22, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+23] - November 15, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+22] - November 8, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+21] - November 1, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+20] - October 25, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+19] - October 18, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+18] - September 27, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+17] - September 20, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+16] - September 13, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+15] - September 6, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+14] - August 30, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+13] - August 23, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+12] - August 16, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+11] - August 9, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+10] - August 2, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+9] - July 26, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+8] - July 19, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+7] - July 12, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+6] - July 5, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+5] - June 28, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+4] - June 21, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+3] - June, 14, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+2] - June, 7, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0+1] - May, 31, 2022
+
+* Automated dependency updates
+
+
+## [3.0.0] - May 14th, 2022
+
+* Flutter 3.0
+
+
+## [2.1.0] - March 27th, 2022
+
+* Framework upgrade
+
+
+## [2.0.0+2] - February 20th, 2022
+
+* Dependency updates
+
+
+## [2.0.0+1] - February 6th, 2022
+
+* Dependency Updates
+
+
+## [2.0.0] - January 23rd, 2022
+
+* Update to the new variable syntax
+
+
+## [1.0.0+1] - January 9th, 2022
+
+* Dependency Updates
+
+
+## [1.0.0] - December 2nd, 2021
+
+* Initial release

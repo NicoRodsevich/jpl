@@ -1,0 +1,7 @@
+name: jpl_actions_flutter_validate
+description: 'Simple CLI to be able to validate Dart and Flutter repos'
+version: '2.1.5'
+homepage: 'https://github.com/peiffer-innovations/actions-flutter-validate'
+
+environment:
+  sdk: ^3.6.0
