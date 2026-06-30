@@ -1,8 +1,10 @@
 name: jpl_automated_testing_framework_plugin_firebase
 publish_to: none
 description: "Library to use Google's Firebase Realtime Database as a storage mechanism for automated tests and test results."
-homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_plugin_firebase'
 version: '5.0.2+14'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_automated_testing_framework_plugin_firebase
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment: 
   sdk: ^3.6.0

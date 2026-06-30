@@ -1,7 +1,9 @@
 name: jpl_rest_pubsub
 description: 'REST based client for performing Pub/Sub operations within Dart and Flutter.'
 version: '1.0.2+8'
-homepage: 'https://github.com/peiffer-innovations/rest_pubsub'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_rest_pubsub
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

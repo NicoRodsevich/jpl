@@ -8,6 +8,9 @@ description: A new Flutter project.
 # build by specifying --build-name and --build-number, respectively.
 # Read more about versioning at semver.org.
 version: 1.0.0+1
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_putnzonthemap
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

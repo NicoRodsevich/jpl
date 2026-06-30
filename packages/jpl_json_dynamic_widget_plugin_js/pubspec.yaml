@@ -1,7 +1,9 @@
 name: jpl_json_dynamic_widget_plugin_js
 description: "A plugin to the JSON Dynamic Widget to provide JS support to the widgets"
-homepage: "https://github.com/peiffer-innovations/json_dynamic_widget_plugin_js"
 version: "2.3.0+3"
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_dynamic_widget_plugin_js
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

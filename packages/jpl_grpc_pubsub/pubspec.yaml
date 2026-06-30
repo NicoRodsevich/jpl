@@ -1,7 +1,9 @@
 name: jpl_grpc_pubsub
 description: 'Wrapper client around the gRPC based APIs for Google Pub/Sub that supports streaming and retries.'
 version: '3.0.0'
-homepage: 'https://github.com/peiffer-innovations/grpc_pubsub'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_grpc_pubsub
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

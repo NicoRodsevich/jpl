@@ -1,7 +1,9 @@
 name: jpl_automated_testing_framework_models
 description: 'Core models for the automated testing framework to provide pure dart support for server side integrations.'
 version: '2.0.10+8'
-homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_models'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_automated_testing_framework_models
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment: 
   sdk: ^3.6.0

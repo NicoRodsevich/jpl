@@ -1,7 +1,9 @@
 name: jpl_json_dynamic_widget_codegen
 description: "A library autogenerate JSON widget builders."
-homepage: "https://github.com/peiffer-innovations/json_dynamic_widget"
 version: "4.0.1+5"
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_dynamic_widget_codegen
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

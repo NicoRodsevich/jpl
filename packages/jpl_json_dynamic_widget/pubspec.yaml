@@ -1,7 +1,9 @@
 name: jpl_json_dynamic_widget
 description: "A library to dynamically generate widgets within Flutter from JSON or other Map-like structures."
-repository: "https://github.com/peiffer-innovations/json_dynamic_widget"
 version: "12.0.0+9"
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_dynamic_widget
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

@@ -1,7 +1,9 @@
 name: jpl_automated_testing_framework_plugin_logging
 description: 'Library to use provide logging capabilities and evaluations to the testing framework.'
-homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_plugin_logging'
 version: '4.0.1+14'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_automated_testing_framework_plugin_logging
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment: 
   sdk: ^3.6.0

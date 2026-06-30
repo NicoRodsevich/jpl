@@ -1,7 +1,9 @@
 name: jpl_screen_streamer
 description: "A library that can stream an android, ios, etc. Flutter application's screen using WebRTC"
-homepage: "https://github.com/peiffer-innovations/screen_streamer"
 version: "1.0.2+15"
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_screen_streamer
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

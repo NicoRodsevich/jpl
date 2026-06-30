@@ -1,7 +1,9 @@
 name: jpl_dart_dependency_updater
 description: 'A package that will scan for dependencies in a Dart repo, update them if needed, and can update the repo with them.'
 version: '1.1.0+4'
-homepage: 'https://github.com/peiffer-innovations/actions_dart_dependency_updater'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_dart_dependency_updater
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

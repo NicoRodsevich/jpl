@@ -1,8 +1,10 @@
 name: jpl_json_dynamic_widget_plugin_expressions
 description: A plugin to the JSON Dynamic Widget to provide Font Awesome support to the widgets
-homepage: https://github.com/peiffer-innovations/json_dynamic_widget_plugin_expressions
 
 version: 1.0.0+4
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_dynamic_widget_plugin_expressions
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

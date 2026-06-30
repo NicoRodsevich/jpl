@@ -1,7 +1,9 @@
 name: jpl_grpc_googleapis
 description: Generated GRPC Dart files for the Google APIs
 version: 4.0.45
-homepage: https://github.com/peiffer-innovations/grpc_googleapis
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_grpc_googleapis
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

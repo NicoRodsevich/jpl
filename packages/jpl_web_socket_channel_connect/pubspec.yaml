@@ -1,7 +1,9 @@
 name: jpl_web_socket_channel_connect
 description: 'A wrapper to connect websockets for the web_socket_channel package that gives an error on failure.'
-homepage: 'https://github.com/peiffer-innovations/web_socket_channel_connect'
 version: '1.0.4'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_web_socket_channel_connect
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

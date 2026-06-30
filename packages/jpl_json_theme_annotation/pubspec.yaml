@@ -1,7 +1,9 @@
 name: jpl_json_theme_annotation
 description: "Simple package holding the annotations needed by the JsonTheme code generator."
-homepage: "https://github.com/peiffer-innovations/json_theme"
 version: "2.0.0+4"
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_theme_annotation
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

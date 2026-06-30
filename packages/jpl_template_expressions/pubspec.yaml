@@ -1,7 +1,9 @@
 name: jpl_template_expressions
 description: 'A Dart library to process string based templates using expressions.'
-homepage: 'https://github.com/peiffer-innovations/template_expressions'
 version: '3.3.1+2'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_template_expressions
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

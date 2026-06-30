@@ -1,7 +1,9 @@
 name: jpl_json_dynamic_widget_plugin_components
 description: 'A plugin to the JSON Dynamic Widget to provide components support to the widgets'
-homepage: 'https://github.com/peiffer-innovations/json_dynamic_widget_plugin_components'
 version: '1.1.0'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_dynamic_widget_plugin_components
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

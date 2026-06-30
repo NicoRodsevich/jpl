@@ -1,10 +1,12 @@
 name: jpl_json_dynamic_widget_builder
 description: An application to allow for building dynamic widgets via JSON in a WYSIWYG editor.
-homepage: https://github.com/peiffer-innovations/json_dynamic_widget_builder
 
 publish_to: 'none'
 
 version: 0.9.2
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_dynamic_widget_builder
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

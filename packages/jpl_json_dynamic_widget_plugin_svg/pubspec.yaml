@@ -1,7 +1,9 @@
 name: jpl_json_dynamic_widget_plugin_svg
 description: "A plugin to the JSON Dynamic Widget to provide SVG support to the widgets"
-homepage: "https://github.com/peiffer-innovations/json_dynamic_widget_plugin_svg"
 version: "4.0.1+13"
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_dynamic_widget_plugin_svg
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

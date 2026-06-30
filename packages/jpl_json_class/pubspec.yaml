@@ -1,7 +1,9 @@
 name: jpl_json_class
 description: 'An abstract class to assist with converting to and from JSON with various primitive parsers.'
 version: '3.0.1'
-homepage: 'https://github.com/peiffer-innovations/json_class'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_class
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

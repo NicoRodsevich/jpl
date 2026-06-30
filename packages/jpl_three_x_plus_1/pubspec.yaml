@@ -1,8 +1,10 @@
 name: jpl_three_x_plus_1
 description: A simple set of widgets to demonstrate the mathmatical 3x + 1 conjecture.
-homepage: https://github.com/peiffer-innovations/three_x_plus_1
 
 version: 1.0.0
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_three_x_plus_1
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

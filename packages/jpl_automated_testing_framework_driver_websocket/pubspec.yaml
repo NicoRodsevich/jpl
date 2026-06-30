@@ -1,7 +1,9 @@
 name: jpl_automated_testing_framework_driver_websocket
 description: 'Websocket based driver for the automated testing framework.'
 version: '2.0.0+38'
-homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_driver_websocket'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_automated_testing_framework_driver_websocket
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment: 
   sdk: ^3.6.0

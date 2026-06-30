@@ -1,7 +1,9 @@
 name: jpl_json_conditional
 description: 'A library to create conditional evaluators from JSON or JSON-like structures.'
-homepage: 'https://github.com/peiffer-innovations/json_conditional'
 version: '3.0.1+17'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_conditional
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

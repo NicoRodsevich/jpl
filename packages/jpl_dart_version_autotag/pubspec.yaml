@@ -1,7 +1,9 @@
 name: jpl_dart_version_autotag
 description: "A package that to scan the pubspec.yaml file and automatically create or update a tag in git for it."
 version: "2.3.4+21"
-homepage: "https://github.com/peiffer-innovations/actions-dart-version-autotag"
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_dart_version_autotag
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

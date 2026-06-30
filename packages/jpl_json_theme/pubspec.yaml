@@ -1,7 +1,9 @@
 name: jpl_json_theme
 description: 'A library to dynamically generate a ThemeData object from a JSON file or dynamic map object'
-homepage: 'https://github.com/peiffer-innovations/json_theme'
 version: '11.0.0'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_json_theme
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

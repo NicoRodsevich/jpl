@@ -1,7 +1,9 @@
 name: jpl_websafe_svg
 description: 'Simple abstraction to be able to use SVGs in Android, iOS, and Web.'
 version: '3.0.1+10'
-homepage: 'https://github.com/peiffer-innovations/websafe_svg'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_websafe_svg
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

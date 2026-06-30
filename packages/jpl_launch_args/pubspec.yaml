@@ -1,7 +1,9 @@
 name: jpl_launch_args
 description: 'Plugin to get command line launch args for both Android and iOS.'
 version: '3.0.0'
-homepage: 'https://github.com/peiffer-innovations/launch_args'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_launch_args
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment: 
   sdk: ^3.6.0

@@ -1,6 +1,8 @@
 name: jpl_actions_flutter_deploy_pages
 version: '1.15.3'
-homepage: 'https://github.com/peiffer-innovations/actions-flutter-deploy-pages'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_actions_flutter_deploy_pages
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 publish: 'none'
 

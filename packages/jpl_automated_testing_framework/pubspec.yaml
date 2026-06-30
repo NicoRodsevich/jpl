@@ -1,7 +1,9 @@
 name: jpl_automated_testing_framework
 description: 'A testing framework that allows in app tests to be built and executed in an automated way.'
 version: '5.0.1'
-homepage: 'https://github.com/peiffer-innovations/automated_testing_framework'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_automated_testing_framework
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

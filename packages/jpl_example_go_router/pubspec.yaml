@@ -4,6 +4,9 @@ description: A new Flutter project.
 publish_to: 'none'
 
 version: 1.0.0+1
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_example_go_router
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

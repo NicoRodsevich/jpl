@@ -1,7 +1,9 @@
 name: jpl_dynamic_widget_annotation
 description: 'Annotations for the json_dynamic_widget library.'
-homepage: 'https://github.com/peiffer-innovations/json_dynamic_widget'
 version: '3.0.1'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_dynamic_widget_annotation
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0

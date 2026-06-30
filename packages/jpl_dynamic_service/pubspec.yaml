@@ -1,7 +1,9 @@
 name: jpl_dynamic_service
 description: 'A Dart based service for handling dynamic requests and responses'
-homepage: 'https://github.com/peiffer-innovations/dynamic_service'
 version: '1.0.2+13'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_dynamic_service
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment: 
   sdk: ^3.6.0

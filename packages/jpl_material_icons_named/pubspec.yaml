@@ -1,7 +1,9 @@
 name: jpl_material_icons_named
 description: 'A mapping library that maps the Stringified material icon name to the actual Material `IconData`.'
-homepage: 'https://github.com/peiffer-innovations/material_icons_named'
 version: '3.16.0+2'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_material_icons_named
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment: 
   sdk: ^3.6.0

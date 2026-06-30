@@ -1,7 +1,9 @@
 name: jpl_automated_testing_framework_plugin_gps
 description: "Plugin to provide GPS based testing capabilities to the Automated Testing Framework."
-homepage: 'https://github.com/peiffer-innovations/automated_testing_framework_plugin_gps'
 version: '2.0.2+14'
+homepage: https://github.com/NicoRodsevich/jpl
+repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_automated_testing_framework_plugin_gps
+issue_tracker: https://github.com/NicoRodsevich/jpl/issues
 
 environment:
   sdk: ^3.6.0
