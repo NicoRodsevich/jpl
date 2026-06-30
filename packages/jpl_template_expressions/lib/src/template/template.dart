@@ -1,5 +1,5 @@
 import 'package:logging/logging.dart';
-import 'package:jpl_template_expressions/template_expressions.dart';
+import 'package:jpl_template_expressions/jpl_template_expressions.dart';
 
 class Template {
   Template({

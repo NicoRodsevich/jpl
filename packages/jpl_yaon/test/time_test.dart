@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:bson/bson.dart';
-import 'package:jpl_yaon/yaon.dart';
+import 'package:jpl_yaon/jpl_yaon.dart';
 import 'package:test/test.dart';
 import 'package:yaml_writer/yaml_writer.dart';
 

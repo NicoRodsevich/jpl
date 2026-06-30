@@ -1,4 +1,4 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 
 /// Test step that groups different [TestStep] to be executed
 /// as a block.

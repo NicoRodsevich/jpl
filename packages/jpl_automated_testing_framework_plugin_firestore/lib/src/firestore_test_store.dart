@@ -1,10 +1,10 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_firebase_storage/automated_testing_framework_plugin_firebase_storage.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_firebase_storage/jpl_automated_testing_framework_plugin_firebase_storage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:logging/logging.dart';
 
 /// Test Store for the Automated Testing Framework that can read and write tests

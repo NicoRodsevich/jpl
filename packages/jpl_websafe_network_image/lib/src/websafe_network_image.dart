@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpl_websafe_network_image/websafe_network_image.dart';
+import 'package:jpl_websafe_network_image/jpl_websafe_network_image.dart';
 
 // ignore: uri_does_not_exist
 import 'platform/stub_network_image.dart'

@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:jpl_automated_testing_framework_driver_websocket/device.dart';
-import 'package:jpl_automated_testing_framework_example/automated_testing_framework_example.dart';
+import 'package:jpl_automated_testing_framework_example/jpl_automated_testing_framework_example.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

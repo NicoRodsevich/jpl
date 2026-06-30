@@ -1,8 +1,8 @@
 import 'dart:math';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_expressions/json_dynamic_widget_plugin_expressions.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_expressions/jpl_json_dynamic_widget_plugin_expressions.dart';
 import 'package:logging/logging.dart';
 
 void main() {

@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_desktop/automated_testing_framework_plugin_desktop.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_desktop/jpl_automated_testing_framework_plugin_desktop.dart';
 
 void main() {
   test('assert_window_size', () {

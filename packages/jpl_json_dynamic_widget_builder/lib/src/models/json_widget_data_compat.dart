@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// Compatibility shims that preserve the pre-v12 [JsonWidgetData] surface used
 /// throughout the builder (`type`, `id`, `args`, `builder()`, `children`, and a

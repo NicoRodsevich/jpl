@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 class SliverGridDelegateDecoder {
   static SliverGridDelegate decodeGridDelegate({

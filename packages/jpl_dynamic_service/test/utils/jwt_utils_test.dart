@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:jpl_dynamic_service/dynamic_service.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
 import 'package:jose/jose.dart';
 import 'package:test/test.dart';
 

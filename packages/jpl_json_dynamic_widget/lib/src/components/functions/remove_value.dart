@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// The `remove_value` function accepts a key and a value
 /// and then calls the [removeValue] function.

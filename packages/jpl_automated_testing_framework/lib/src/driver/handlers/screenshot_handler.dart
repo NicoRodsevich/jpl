@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/foundation.dart';
 
 class ScreenshotHandler {

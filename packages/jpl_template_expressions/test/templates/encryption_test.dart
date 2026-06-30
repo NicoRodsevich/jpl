@@ -6,7 +6,7 @@ import 'package:logging/logging.dart';
 import 'package:pointycastle/key_generators/rsa_key_generator.dart';
 import 'package:pointycastle/pointycastle.dart' as pc;
 import 'package:pointycastle/random/fortuna_random.dart';
-import 'package:jpl_template_expressions/template_expressions.dart';
+import 'package:jpl_template_expressions/jpl_template_expressions.dart';
 import 'package:test/test.dart';
 
 void main() {

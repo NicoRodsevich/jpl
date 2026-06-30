@@ -1,11 +1,11 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:logging/logging.dart';
 
 /// Test Store for the Automated Testing Framework that can read and write tests

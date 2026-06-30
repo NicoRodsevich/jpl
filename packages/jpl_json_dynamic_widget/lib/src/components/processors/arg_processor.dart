@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// Arg processor allows to process [JsonWidgetData] arg into its real value.
 /// It also is responsible to calculate (or not) variable names that specified

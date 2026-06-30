@@ -1,4 +1,4 @@
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 import 'package:test/test.dart';
 
 void main() {

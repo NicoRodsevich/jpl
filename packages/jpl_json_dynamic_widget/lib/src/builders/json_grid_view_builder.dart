@@ -1,6 +1,6 @@
 // ignore: unused_import
 import 'package:flutter/gestures.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 part 'json_grid_view_builder.g.dart';
 

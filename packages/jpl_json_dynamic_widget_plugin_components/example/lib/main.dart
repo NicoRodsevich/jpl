@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_components/json_dynamic_widget_plugin_components.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_components/jpl_json_dynamic_widget_plugin_components.dart';
 import 'package:logging/logging.dart';
 
 void main() async {

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_firestore/automated_testing_framework_plugin_firestore.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_firestore/jpl_automated_testing_framework_plugin_firestore.dart';
 
 /// Sets a value on the identified Firestore Document identified by the
 /// [collectionPath] and [documentId].

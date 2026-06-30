@@ -1,4 +1,4 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 
 /// Test step that expects the sub-step to fail with an exception or else this
 /// step will fail.  Useful for negative tests.

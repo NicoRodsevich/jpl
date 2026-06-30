@@ -1,5 +1,5 @@
-import 'package:jpl_ionicons_named/ionicons_named.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_ionicons_named/jpl_ionicons_named.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 part 'ison_ionicon_builder.g.dart';
 

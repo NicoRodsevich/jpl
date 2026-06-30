@@ -1,4 +1,4 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 
 /// Scans the log records in the current test report and fails if a value is
 /// found with a given [regEx] value.

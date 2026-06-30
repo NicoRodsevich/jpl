@@ -1,13 +1,13 @@
 import 'dart:async';
 import 'dart:ui' as ui;
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Workhorse of the Automate Testing Framework.
 class Testable extends StatefulWidget {

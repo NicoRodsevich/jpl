@@ -3,14 +3,14 @@ import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:jpl_form_validation/form_validation.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Page that shows all the test steps and their values for a current test.
 class TestStepsPage extends StatefulWidget {

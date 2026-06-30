@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_code_editor/flutter_code_editor.dart';
 import 'package:flutter_highlight/themes/dracula.dart';
 import 'package:highlight/languages/json.dart' as l;
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/bloc/widget_tree_bloc.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';

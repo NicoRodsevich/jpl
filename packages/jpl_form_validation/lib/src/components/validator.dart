@@ -1,5 +1,5 @@
-import 'package:jpl_form_validation/form_validation.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Container class for a series of [ValueValidator] objects.  Each
 /// [ValueValidator] will be evaluated in a short-circuited way such that as

@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:interpolation/interpolation.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// Creates values used to parameterize child templates.
 /// It generates 'id' field if not exist via [Uuid.v4].

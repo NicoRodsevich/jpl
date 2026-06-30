@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_logging/automated_testing_framework_plugin_logging.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_logging/jpl_automated_testing_framework_plugin_logging.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

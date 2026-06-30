@@ -1,4 +1,4 @@
-import 'package:jpl_yaon/yaon.dart';
+import 'package:jpl_yaon/jpl_yaon.dart';
 import 'package:test/expect.dart';
 import 'package:test/scaffolding.dart';
 

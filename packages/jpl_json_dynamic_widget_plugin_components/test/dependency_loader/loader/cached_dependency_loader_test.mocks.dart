@@ -5,7 +5,7 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'dart:async' as _i4;
 
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart' as _i2;
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart' as _i2;
 import 'package:jpl_json_dynamic_widget_plugin_components/src/dependency_loader/dependency.dart'
     as _i5;
 import 'package:jpl_json_dynamic_widget_plugin_components/src/dependency_loader/loader/dependency_loader.dart'

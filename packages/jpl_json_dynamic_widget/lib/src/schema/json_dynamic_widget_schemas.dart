@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 class JsonDynamicWidgetSchemas {
   static final Map<String, Map<String, Object>> all = Map.unmodifiable({

@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Test step that iterates from [start] to [end] - 1 and executes [step] with
 /// each iteration.  If set, tihs stores the current value in [variableName] and

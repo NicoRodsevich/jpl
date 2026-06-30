@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// It accepts variable names which values should be convertable
 ///  into [DynamicOperation]. It tries to call [DynamicOperation.execute]

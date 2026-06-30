@@ -1,7 +1,7 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Page that can display a summarized result from a test suite run.
 class TestSuiteReportPage extends StatefulWidget {

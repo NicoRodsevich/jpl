@@ -1,4 +1,4 @@
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Class that contains functions related to working with [Future].  As a note,
 /// when using these functions, be sure to use the [AsyncExpressionEvaluator]

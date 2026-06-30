@@ -1,5 +1,5 @@
-import 'package:jpl_dynamic_service/dynamic_service.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:logging/logging.dart';
 
 class ConditionalStep extends ServiceStep {

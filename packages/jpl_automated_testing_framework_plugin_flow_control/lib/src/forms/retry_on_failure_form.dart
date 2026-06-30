@@ -1,7 +1,7 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_flow_control/automated_testing_framework_plugin_flow_control.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_flow_control/jpl_automated_testing_framework_plugin_flow_control.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 class RetryOnFailureForm extends TestStepForm {
   const RetryOnFailureForm();

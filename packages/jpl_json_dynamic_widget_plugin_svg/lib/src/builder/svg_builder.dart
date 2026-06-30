@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_svg/json_dynamic_widget_plugin_svg.dart';
-import 'package:jpl_websafe_svg/websafe_svg.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_svg/jpl_json_dynamic_widget_plugin_svg.dart';
+import 'package:jpl_websafe_svg/jpl_websafe_svg.dart';
 
 part 'svg_builder.g.dart';
 

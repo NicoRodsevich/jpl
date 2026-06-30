@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// A [JsonWidgetData] subclass that does not parse the JSON until the values
 /// are needed.  This is used internally by the library for when widgets are

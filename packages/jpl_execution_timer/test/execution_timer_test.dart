@@ -2,7 +2,7 @@
 
 import 'dart:convert';
 
-import 'package:jpl_execution_timer/execution_timer.dart';
+import 'package:jpl_execution_timer/jpl_execution_timer.dart';
 import 'package:test/test.dart';
 
 void main() {

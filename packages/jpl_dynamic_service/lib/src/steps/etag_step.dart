@@ -1,5 +1,5 @@
 import 'package:crypto/crypto.dart';
-import 'package:jpl_dynamic_service/dynamic_service.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
 
 class ETagStep extends ServiceStep {
   ETagStep({

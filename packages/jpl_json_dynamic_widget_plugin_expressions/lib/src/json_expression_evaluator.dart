@@ -1,5 +1,5 @@
 import 'package:expressions/expressions.dart';
-import 'package:jpl_json_dynamic_widget_plugin_expressions/json_dynamic_widget_plugin_expressions.dart';
+import 'package:jpl_json_dynamic_widget_plugin_expressions/jpl_json_dynamic_widget_plugin_expressions.dart';
 
 class JsonExpressionEvaluator extends ExpressionEvaluator {
   const JsonExpressionEvaluator({

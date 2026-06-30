@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 import 'package:meta/meta.dart';
 
 @immutable

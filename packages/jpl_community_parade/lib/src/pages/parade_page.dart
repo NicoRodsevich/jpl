@@ -6,7 +6,7 @@ import 'package:jpl_community_parade/src/translations/app_translations.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:wakelock/wakelock.dart';
-import 'package:jpl_websafe_platform/websafe_platform.dart';
+import 'package:jpl_websafe_platform/jpl_websafe_platform.dart';
 
 class ParadePage extends StatefulWidget {
   ParadePage({

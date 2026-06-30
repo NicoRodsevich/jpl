@@ -1,7 +1,7 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_json_class/json_class.dart';
-import 'package:jpl_json_theme/json_theme.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
 
 /// Obscures / un-obscures a widget with an overlay of a specified [color].  If
 /// the [color] is `null` or [Colors.transparent] then the widget will

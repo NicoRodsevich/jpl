@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-import 'package:jpl_dynamic_service/dynamic_service.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_rest_client/rest_client.dart' as rc;
-import 'package:jpl_template_expressions/template_expressions.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart' as rc;
+import 'package:jpl_template_expressions/jpl_template_expressions.dart';
 
 class LoadNetworkStep extends ServiceStep {
   LoadNetworkStep({

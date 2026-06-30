@@ -2,7 +2,7 @@ import 'dart:async';
 
 // import 'package:file_picker_cross/file_picker_cross.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/bloc/widget_tree_bloc.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/models/json_widget_data_compat.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/widgets/supported_widgets_list.dart';

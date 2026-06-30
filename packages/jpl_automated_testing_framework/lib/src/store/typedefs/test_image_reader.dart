@@ -1,6 +1,6 @@
 import 'dart:typed_data';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 
 /// Reader to load a golden image from a data store and return it for
 /// comparison.  If [testVersion] is omitted, this should default to the highest

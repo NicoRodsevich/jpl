@@ -1,18 +1,18 @@
 import 'dart:convert';
 import 'dart:math';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_firebase/automated_testing_framework_plugin_firebase.dart';
-import 'package:jpl_automated_testing_framework_plugin_firebase_storage/automated_testing_framework_plugin_firebase_storage.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_firebase/jpl_automated_testing_framework_plugin_firebase.dart';
+import 'package:jpl_automated_testing_framework_plugin_firebase_storage/jpl_automated_testing_framework_plugin_firebase_storage.dart';
 import 'package:convert/convert.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Test Store for the Automated Testing Framework that can read and write tests
 /// to Firebase Realtime Database.  This optionally can save screenshots to

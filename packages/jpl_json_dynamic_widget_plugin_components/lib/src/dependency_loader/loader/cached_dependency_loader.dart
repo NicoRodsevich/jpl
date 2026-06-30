@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../json_dynamic_widget_plugin_components.dart';
+import '../../../jpl_json_dynamic_widget_plugin_components.dart';
 
 /// Loader that caches the content of the child loader in the in-memory map.
 /// It allows to

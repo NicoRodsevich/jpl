@@ -1,4 +1,4 @@
-import 'package:jpl_flexible_table/flexible_table.dart';
+import 'package:jpl_flexible_table/jpl_flexible_table.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 

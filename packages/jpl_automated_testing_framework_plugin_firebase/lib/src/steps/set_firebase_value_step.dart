@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_firebase/automated_testing_framework_plugin_firebase.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_firebase/jpl_automated_testing_framework_plugin_firebase.dart';
 
 /// Sets a value on the identified Firebase Document identified by the
 /// [collectionPath] and [documentId].

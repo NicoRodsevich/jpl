@@ -1,6 +1,6 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_form_validation/form_validation.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
 
 class DropdownPage extends StatefulWidget {
   DropdownPage({Key? key}) : super(key: key);

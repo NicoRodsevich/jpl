@@ -1,8 +1,8 @@
 import 'package:community_charts_common/community_charts_common.dart' as common;
 import 'package:community_charts_flutter/community_charts_flutter.dart'
     as charts;
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/json_dynamic_widget_plugin_charts_flutter.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/jpl_json_dynamic_widget_plugin_charts_flutter.dart';
 
 /// Creates a PieChart widget based on the JSON structure.
 class StringPieChartBuilder extends JsonWidgetBuilder {

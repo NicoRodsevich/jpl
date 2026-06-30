@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/material.dart';
 
 /// Mixin to listen for the testing framework to request a reset and thus pop

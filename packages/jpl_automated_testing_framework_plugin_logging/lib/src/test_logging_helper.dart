@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_logging/automated_testing_framework_plugin_logging.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_logging/jpl_automated_testing_framework_plugin_logging.dart';
 
 class TestLoggingHelper {
   /// Registers the test steps to the optional [registry].  If not set, the

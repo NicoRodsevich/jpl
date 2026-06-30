@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:jpl_json_theme/json_theme.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
 
 import 'src/theme_page.dart';
 

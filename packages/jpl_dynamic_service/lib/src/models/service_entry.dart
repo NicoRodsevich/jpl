@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:jpl_dynamic_service/dynamic_service.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
 import 'package:meta/meta.dart';
 
 class ServiceEntry {

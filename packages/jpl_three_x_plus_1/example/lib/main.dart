@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:jpl_three_x_plus_1/three_x_plus_1.dart';
+import 'package:jpl_three_x_plus_1/jpl_three_x_plus_1.dart';
 
 void main() {
   var mathBloc = MathBloc();

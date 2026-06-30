@@ -1,6 +1,6 @@
-import 'package:jpl_dynamic_service/dynamic_service.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
 import 'package:jpl_json_schema2/json_schema.dart';
-import 'package:jpl_yaon/yaon.dart';
+import 'package:jpl_yaon/jpl_yaon.dart';
 
 class ValidateSchemaStep extends ServiceStep {
   ValidateSchemaStep({

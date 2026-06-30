@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_screen_streamer/screen_streamer.dart';
+import 'package:jpl_screen_streamer/jpl_screen_streamer.dart';
 
 void main() {
   Logger.root.level = Level.ALL;

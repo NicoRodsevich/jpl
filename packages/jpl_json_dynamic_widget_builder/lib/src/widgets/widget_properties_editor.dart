@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:jpl_json_dynamic_widget/json_dynamic_widget_schemas.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/bloc/schema_bloc.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/bloc/widget_tree_bloc.dart';

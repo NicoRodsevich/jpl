@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_json_dynamic_widget_plugin_svg/json_dynamic_widget_plugin_svg.dart';
+import 'package:jpl_json_dynamic_widget_plugin_svg/jpl_json_dynamic_widget_plugin_svg.dart';
 
 void main() {
   test('output', () async {

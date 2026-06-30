@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_child_builder/child_builder.dart';
+import 'package:jpl_child_builder/jpl_child_builder.dart';
 
 void main() {
   testWidgets('no builder', (WidgetTester tester) async {

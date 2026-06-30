@@ -1,6 +1,6 @@
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:jpl_font_awesome_flutter_named/font_awesome_flutter_named.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_font_awesome_flutter_named/jpl_font_awesome_flutter_named.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 part 'json_fa_icon_builder.g.dart';
 

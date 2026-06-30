@@ -1,7 +1,7 @@
 // ignore_for_file: deprecated_member_use
 
 import 'package:flutter/material.dart';
-import 'package:jpl_web_socket_channel_connect/web_socket_channel_connect.dart';
+import 'package:jpl_web_socket_channel_connect/jpl_web_socket_channel_connect.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
 void main() {

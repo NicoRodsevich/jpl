@@ -1,4 +1,4 @@
-import 'package:jpl_json_conditional/json_conditional.dart';
+import 'package:jpl_json_conditional/jpl_json_conditional.dart';
 import 'package:test/test.dart';
 
 void main() {

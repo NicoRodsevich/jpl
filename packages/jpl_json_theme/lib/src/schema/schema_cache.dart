@@ -1,4 +1,4 @@
-import 'package:jpl_json_theme/json_theme.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
 
 class SchemaCache {
   factory SchemaCache() => _instance;

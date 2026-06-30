@@ -1,8 +1,8 @@
 import 'dart:math' as math;
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:collection/collection.dart' show IterableExtension;
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Test step that allows to execute all the steps from another [Test].
 class IncludeTestStep extends TestRunnerStep {

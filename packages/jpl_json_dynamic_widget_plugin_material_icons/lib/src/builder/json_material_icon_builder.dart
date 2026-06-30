@@ -1,5 +1,5 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_material_icons_named/material_icons_named.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_material_icons_named/jpl_material_icons_named.dart';
 
 part 'json_material_icon_builder.g.dart';
 

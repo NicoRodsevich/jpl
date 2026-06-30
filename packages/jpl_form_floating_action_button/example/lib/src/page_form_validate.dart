@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:jpl_form_floating_action_button/form_floating_action_button.dart';
+import 'package:jpl_form_floating_action_button/jpl_form_floating_action_button.dart';
 
 class PageFormValidate extends StatefulWidget {
   const PageFormValidate({

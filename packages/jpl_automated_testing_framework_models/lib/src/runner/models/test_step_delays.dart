@@ -1,4 +1,4 @@
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:meta/meta.dart';
 
 /// Defines the various delays and timeouts involved when executing tests.

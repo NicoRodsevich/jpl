@@ -1,6 +1,6 @@
 library;
 
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:logging/logging.dart';
 import 'package:meta/meta.dart';
 import 'package:jpl_template_expressions/expressions.dart';

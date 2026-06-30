@@ -3,11 +3,11 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:meta/meta.dart';
 import 'package:jpl_template_expressions/expressions.dart';
 import 'package:yaml_writer/yaml_writer.dart';
-import 'package:jpl_yaon/yaon.dart';
+import 'package:jpl_yaon/jpl_yaon.dart';
 
 void main(List<String> args) {
   var path = args.isEmpty ? null : args[0];

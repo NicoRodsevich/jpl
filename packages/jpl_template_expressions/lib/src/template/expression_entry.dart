@@ -1,4 +1,4 @@
-import 'package:jpl_template_expressions/template_expressions.dart';
+import 'package:jpl_template_expressions/jpl_template_expressions.dart';
 
 /// Represents an entry in a template that may be an expression
 class ExpressionEntry implements Comparable<ExpressionEntry> {

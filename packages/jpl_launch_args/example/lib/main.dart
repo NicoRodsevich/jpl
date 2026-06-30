@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpl_launch_args/launch_args.dart';
+import 'package:jpl_launch_args/jpl_launch_args.dart';
 
 Future<void> main(List<String>? args) async {
   WidgetsFlutterBinding.ensureInitialized();

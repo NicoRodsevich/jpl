@@ -1,7 +1,7 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_json_class/json_class.dart';
-import 'package:jpl_json_theme/json_theme.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
 
 /// Test runner theme data that can be used to alter the appearance of the built
 /// in test runner.

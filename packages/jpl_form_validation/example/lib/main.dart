@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:jpl_form_floating_action_button/form_floating_action_button.dart';
-import 'package:jpl_form_validation/form_validation.dart';
+import 'package:jpl_form_floating_action_button/jpl_form_floating_action_button.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
 
 void main() {
   runApp(const MyApp());

@@ -2,12 +2,12 @@ import 'dart:async';
 import 'dart:collection';
 import 'dart:io';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_form_validation/form_validation.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Controller that allows for the creation, loading, saving, and running of
 /// automated tests.

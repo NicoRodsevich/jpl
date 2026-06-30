@@ -6,7 +6,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 final _localhost = kIsWeb
     ? 'localhost'

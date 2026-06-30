@@ -5,9 +5,9 @@ import 'package:community_charts_flutter/community_charts_flutter.dart'
     as charts;
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:jpl_json_class/json_class.dart';
-import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/json_dynamic_widget_plugin_charts_flutter.dart';
-import 'package:jpl_json_theme/json_theme.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
+import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/jpl_json_dynamic_widget_plugin_charts_flutter.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
 import 'package:logging/logging.dart';
 
 class JsonChartsDecoder {

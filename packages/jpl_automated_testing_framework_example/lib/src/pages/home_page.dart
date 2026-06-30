@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_example/automated_testing_framework_example.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_example/jpl_automated_testing_framework_example.dart';
 import 'package:jpl_automated_testing_framework_example/src/pages/clock_page.dart';
 import 'package:jpl_automated_testing_framework_example/src/pages/dialog_page.dart';
 import 'package:jpl_automated_testing_framework_example/src/pages/issue5_page.dart';

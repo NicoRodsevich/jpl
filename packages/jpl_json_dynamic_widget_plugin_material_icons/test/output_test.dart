@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_json_dynamic_widget_plugin_material_icons/json_dynamic_widget_plugin_material_icons.dart';
+import 'package:jpl_json_dynamic_widget_plugin_material_icons/jpl_json_dynamic_widget_plugin_material_icons.dart';
 
 void main() {
   test('output', () async {

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpl_form_validation/form_validation.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
 
 class ExampleForm extends StatefulWidget {
   const ExampleForm({super.key});

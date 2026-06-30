@@ -1,4 +1,4 @@
-export 'package:jpl_dynamic_widget_annotation/dynamic_widget_annotation.dart';
+export 'package:jpl_dynamic_widget_annotation/jpl_dynamic_widget_annotation.dart';
 
 export 'builder.dart';
 //

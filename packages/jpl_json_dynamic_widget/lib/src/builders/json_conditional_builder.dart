@@ -1,7 +1,7 @@
 import 'dart:async';
 
-import 'package:jpl_json_conditional/json_conditional.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_conditional/jpl_json_conditional.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 part 'json_conditional_builder.g.dart';
 

@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:jpl_websafe_svg/websafe_svg.dart';
+import 'package:jpl_websafe_svg/jpl_websafe_svg.dart';
 import 'package:websafe_svg_example/src/svg_page.dart';
 
 class AssetSvgPage extends StatefulWidget {

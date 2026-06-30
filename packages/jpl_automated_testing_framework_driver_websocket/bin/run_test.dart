@@ -4,7 +4,7 @@ import 'dart:io';
 
 import 'package:args/args.dart';
 import 'package:jpl_automated_testing_framework_driver_websocket/driver.dart';
-import 'package:jpl_automated_testing_framework_models/automated_testing_framework_models.dart';
+import 'package:jpl_automated_testing_framework_models/jpl_automated_testing_framework_models.dart';
 import 'package:convert/convert.dart';
 import 'package:crypto/crypto.dart';
 import 'package:logging/logging.dart';

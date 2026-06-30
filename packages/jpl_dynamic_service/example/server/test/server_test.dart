@@ -5,7 +5,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:jose/jose.dart';
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 import 'package:test/test.dart';
 
 Future<void> main() async {

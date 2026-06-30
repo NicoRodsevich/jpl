@@ -1,4 +1,4 @@
-import 'package:jpl_automated_testing_framework_models/automated_testing_framework_models.dart';
+import 'package:jpl_automated_testing_framework_models/jpl_automated_testing_framework_models.dart';
 import 'package:meta/meta.dart';
 
 /// Set of gestures that [Testable] widgets will respond to when the

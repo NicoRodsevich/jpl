@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 import 'package:logging/logging.dart';
 import 'package:uuid/uuid.dart';
 

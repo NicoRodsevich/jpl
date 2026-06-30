@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_json_dynamic_widget_plugin_components/json_dynamic_widget_plugin_components.dart';
+import 'package:jpl_json_dynamic_widget_plugin_components/jpl_json_dynamic_widget_plugin_components.dart';
 import 'package:mockito/annotations.dart';
 
 @GenerateNiceMocks([MockSpec<BuildContext>()])

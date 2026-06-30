@@ -1,6 +1,6 @@
-import 'package:jpl_dynamic_service/dynamic_service.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_yaon/yaon.dart';
+import 'package:jpl_yaon/jpl_yaon.dart';
 
 /// Dynamic string parser that can process either YAML or JSON.
 class DynamicStringParser {

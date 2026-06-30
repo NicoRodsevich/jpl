@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpl_websafe_svg/websafe_svg.dart';
+import 'package:jpl_websafe_svg/jpl_websafe_svg.dart';
 
 class AnimationPage extends StatefulWidget {
   const AnimationPage({super.key});

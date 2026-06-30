@@ -1,4 +1,4 @@
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 class TestImagesTranslations {
   static const atf_form_allowed_delta = TranslationEntry(

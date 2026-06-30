@@ -7,9 +7,9 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
-import 'package:jpl_json_class/json_class.dart';
-import 'package:jpl_json_theme/json_theme.dart';
-import 'package:jpl_json_theme_annotation/json_theme_annotation.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
+import 'package:jpl_json_theme_annotation/jpl_json_theme_annotation.dart';
 
 import '../model/map_widget_state_property.dart';
 

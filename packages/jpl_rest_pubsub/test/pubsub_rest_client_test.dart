@@ -2,7 +2,7 @@ import 'dart:io';
 
 import 'package:googleapis/pubsub/v1.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_rest_pubsub/rest_pubsub.dart';
+import 'package:jpl_rest_pubsub/jpl_rest_pubsub.dart';
 import 'package:test/test.dart';
 
 Future<void> main() async {

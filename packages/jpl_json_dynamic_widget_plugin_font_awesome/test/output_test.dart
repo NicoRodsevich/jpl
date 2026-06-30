@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_json_dynamic_widget_plugin_font_awesome/json_dynamic_widget_plugin_font_awesome.dart';
+import 'package:jpl_json_dynamic_widget_plugin_font_awesome/jpl_json_dynamic_widget_plugin_font_awesome.dart';
 
 void main() {
   test('output', () async {

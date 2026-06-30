@@ -2,9 +2,9 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:collection/collection.dart';
-import 'package:jpl_execution_timer/execution_timer.dart';
+import 'package:jpl_execution_timer/jpl_execution_timer.dart';
 import 'package:flutter/foundation.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:logging/logging.dart';
 
 /// Registry for both the library provided as well as custom form builders that

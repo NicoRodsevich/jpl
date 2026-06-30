@@ -1,8 +1,8 @@
 import 'dart:convert';
 import 'dart:typed_data';
 
-import 'package:jpl_automated_testing_framework_models/automated_testing_framework_models.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_automated_testing_framework_models/jpl_automated_testing_framework_models.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:logging/logging.dart';
 
 /// Base class for the command responses associated to the [CommandAck].

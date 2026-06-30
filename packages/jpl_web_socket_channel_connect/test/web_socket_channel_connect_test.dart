@@ -3,7 +3,7 @@
 import 'dart:async';
 import 'dart:io';
 
-import 'package:jpl_web_socket_channel_connect/web_socket_channel_connect.dart';
+import 'package:jpl_web_socket_channel_connect/jpl_web_socket_channel_connect.dart';
 import 'package:test/test.dart';
 
 void main() {

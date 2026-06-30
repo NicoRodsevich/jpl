@@ -1,5 +1,5 @@
-import 'package:jpl_form_validation/form_validation.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// Builder that can build an [DropdownButtonFormField] widget.  See the
 /// [fromDynamic] for the format.

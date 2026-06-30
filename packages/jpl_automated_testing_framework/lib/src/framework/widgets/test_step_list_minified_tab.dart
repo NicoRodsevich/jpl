@@ -1,9 +1,9 @@
 import 'dart:io';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Tab that shows the test steps in a drag-and-drop reorderable format.
 class TestStepListMinifiedTab extends StatefulWidget {

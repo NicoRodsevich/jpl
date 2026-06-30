@@ -1,8 +1,8 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_strings/automated_testing_framework_plugin_strings.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_strings/jpl_automated_testing_framework_plugin_strings.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_form_validation/form_validation.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 class TransformStringForm extends TestStepForm {
   const TransformStringForm();

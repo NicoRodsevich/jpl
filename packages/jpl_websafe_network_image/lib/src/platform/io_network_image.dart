@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart'
     show CachedNetworkImage;
 import 'package:flutter/material.dart';
-import 'package:jpl_websafe_network_image/websafe_network_image.dart';
+import 'package:jpl_websafe_network_image/jpl_websafe_network_image.dart';
 
 Widget createNetworkImage({
   Alignment alignment = Alignment.center,

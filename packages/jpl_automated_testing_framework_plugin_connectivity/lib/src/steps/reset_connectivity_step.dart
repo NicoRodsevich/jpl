@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_connectivity/automated_testing_framework_plugin_connectivity.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_connectivity/jpl_automated_testing_framework_plugin_connectivity.dart';
 
 /// Set's the device's connectivity status.  As a note, this will not actually
 /// change the connection.  Instead, it sets the value on the

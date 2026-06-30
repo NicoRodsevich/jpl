@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:jpl_json_class/json_class.dart';
-import 'package:jpl_json_theme/json_theme.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
 
 class SvgThemeDecoder {
   static SvgTheme? decode(dynamic map) {

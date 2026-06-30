@@ -1,13 +1,13 @@
 import 'dart:convert';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_firebase/automated_testing_framework_plugin_firebase.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_firebase/jpl_automated_testing_framework_plugin_firebase.dart';
 // ignore: import_of_legacy_library_into_null_safe
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:jpl_form_validation/form_validation.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Helper for the Firebase reference that the automated testing framework will
 /// use when running the tests.  Set the static [firebase] value to the one to

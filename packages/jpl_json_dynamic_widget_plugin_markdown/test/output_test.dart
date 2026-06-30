@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_json_dynamic_widget_plugin_markdown/json_dynamic_widget_plugin_markdown.dart';
+import 'package:jpl_json_dynamic_widget_plugin_markdown/jpl_json_dynamic_widget_plugin_markdown.dart';
 
 void main() {
   test('output', () async {

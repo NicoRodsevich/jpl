@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// The `length` function
 /// takes 1 argument.  The return value depend on the type of the arg.

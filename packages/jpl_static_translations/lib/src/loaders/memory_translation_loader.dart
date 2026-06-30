@@ -1,4 +1,4 @@
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 class MemoryTranslationLoader implements TranslationLoader {
   /// Creates a [TranslationLoader] instance with the given [values] to utilize.

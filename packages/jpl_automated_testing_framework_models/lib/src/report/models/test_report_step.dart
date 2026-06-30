@@ -1,4 +1,4 @@
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// The result for an executed test step.  It's important to note that times in
 /// the report are relative to each run and should not be thought of in absolute

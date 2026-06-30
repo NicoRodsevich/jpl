@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:jpl_json_dynamic_widget_plugin_js/src/components/functions/js/service/js_service.dart';
 
 /// The `js` function allows to execute the JavaScript code.

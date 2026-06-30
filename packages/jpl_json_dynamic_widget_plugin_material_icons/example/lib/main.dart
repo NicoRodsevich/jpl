@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_material_icons/json_dynamic_widget_plugin_material_icons.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_material_icons/jpl_json_dynamic_widget_plugin_material_icons.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_material_icons_named/material_icons_named.dart';
+import 'package:jpl_material_icons_named/jpl_material_icons_named.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

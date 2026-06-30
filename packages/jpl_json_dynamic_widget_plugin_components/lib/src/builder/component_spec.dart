@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 class ComponentSpec extends JsonClass {
   ComponentSpec({

@@ -1,6 +1,6 @@
 import 'package:expressions/expressions.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_expressions/json_dynamic_widget_plugin_expressions.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_expressions/jpl_json_dynamic_widget_plugin_expressions.dart';
 
 class JsonExpressionsPlugin {
   static void bind(JsonWidgetRegistry registry) {

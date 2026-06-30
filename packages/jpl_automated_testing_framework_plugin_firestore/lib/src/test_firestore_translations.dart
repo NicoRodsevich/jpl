@@ -1,4 +1,4 @@
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 class TestFirestoreTranslations {
   static const atf_firestore_error_not_valid_json = TranslationEntry(

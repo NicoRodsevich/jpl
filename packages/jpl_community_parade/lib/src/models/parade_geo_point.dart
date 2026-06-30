@@ -1,6 +1,6 @@
 import 'package:latlong/latlong.dart';
 import 'package:meta/meta.dart';
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 @immutable
 class ParadeGeoPoint extends Jsonable {

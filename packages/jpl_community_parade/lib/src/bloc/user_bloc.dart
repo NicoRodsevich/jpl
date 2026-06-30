@@ -12,7 +12,7 @@ import 'package:jpl_community_parade/src/models/user_token.dart';
 import 'package:jpl_community_parade/src/translations/app_translations.dart';
 import 'package:logging/logging.dart';
 import 'package:meta/meta.dart';
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 const _kCommunityId = 'communityId';
 const _kFirebaseKey = 'firebase';

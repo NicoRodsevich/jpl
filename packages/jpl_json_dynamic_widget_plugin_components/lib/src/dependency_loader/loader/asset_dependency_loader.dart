@@ -1,7 +1,7 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:path/path.dart' as path;
 
-import '../../../json_dynamic_widget_plugin_components.dart';
+import '../../../jpl_json_dynamic_widget_plugin_components.dart';
 
 /// Resolves the asset path from the dependency. Allows to define custom
 /// component spec files organization

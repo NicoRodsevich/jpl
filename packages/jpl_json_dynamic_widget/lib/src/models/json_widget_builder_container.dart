@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// Container for a [JsonWidgetBuilder] builder as well as an associated schema
 /// id.  The schema id will be used to validate the JSON args against the

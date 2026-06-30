@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 ///The `noop` function does  nothing and exists mostly to assist with
 /// testing UI elements that need a function but don't actually care what

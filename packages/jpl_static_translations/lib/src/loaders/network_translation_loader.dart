@@ -1,5 +1,5 @@
-import 'package:jpl_rest_client/rest_client.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 import 'package:meta/meta.dart';
 
 @immutable

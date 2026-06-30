@@ -10,7 +10,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_background_service/flutter_background_service.dart';
 import 'package:flutter_webrtc/flutter_webrtc.dart';
-import 'package:jpl_screen_streamer/screen_streamer.dart';
+import 'package:jpl_screen_streamer/jpl_screen_streamer.dart';
 import 'package:jpl_screen_streamer/src/web_rtc/screen_select_dialog.dart';
 import 'package:logging/logging.dart';
 import 'package:sdp_transform/sdp_transform.dart';

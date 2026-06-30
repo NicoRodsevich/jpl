@@ -1,9 +1,9 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_example/automated_testing_framework_example.dart';
-import 'package:jpl_automated_testing_framework_plugin_firestore/automated_testing_framework_plugin_firestore.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_example/jpl_automated_testing_framework_example.dart';
+import 'package:jpl_automated_testing_framework_plugin_firestore/jpl_automated_testing_framework_plugin_firestore.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_form_validation/form_validation.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
 
 const _kBuilder = CurrencyValidator.fromDynamic;
 const _kType = CurrencyValidator.kType;

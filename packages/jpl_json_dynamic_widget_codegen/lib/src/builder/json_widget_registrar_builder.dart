@@ -1,7 +1,7 @@
 import 'package:analyzer/dart/element/element.dart';
 import 'package:build/build.dart';
 import 'package:code_builder/code_builder.dart';
-import 'package:jpl_json_dynamic_widget_codegen/json_dynamic_widget_codegen.dart';
+import 'package:jpl_json_dynamic_widget_codegen/jpl_json_dynamic_widget_codegen.dart';
 import 'package:source_gen/source_gen.dart';
 
 class JsonWidgetRegistrarBuilder

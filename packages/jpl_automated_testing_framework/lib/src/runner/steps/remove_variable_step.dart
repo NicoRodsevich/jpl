@@ -1,4 +1,4 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 
 /// Sets a  variable on the identified [TestController].
 class RemoveVariableStep extends TestRunnerStep {

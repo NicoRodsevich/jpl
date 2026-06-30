@@ -1,7 +1,7 @@
 import 'dart:collection';
 
 import 'package:flutter/material.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:jpl_json_dynamic_widget/json_dynamic_widget_schemas.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/bloc/schema_bloc.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/widgets/supported_widgets_list.dart';

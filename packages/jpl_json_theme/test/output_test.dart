@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_json_theme/json_theme.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
 
 void main() {
   test('output', () async {

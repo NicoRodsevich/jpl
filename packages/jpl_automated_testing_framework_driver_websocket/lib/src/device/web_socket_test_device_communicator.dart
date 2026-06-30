@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:jpl_automated_testing_framework_models/automated_testing_framework_models.dart';
+import 'package:jpl_automated_testing_framework_models/jpl_automated_testing_framework_models.dart';
 import 'package:logging/logging.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 

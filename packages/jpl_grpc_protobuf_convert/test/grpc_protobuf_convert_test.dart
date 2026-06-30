@@ -1,6 +1,6 @@
 import 'package:fixnum/fixnum.dart';
 import 'package:jpl_grpc_googleapis/google/protobuf.dart' as pb;
-import 'package:jpl_grpc_protobuf_convert/grpc_protobuf_convert.dart';
+import 'package:jpl_grpc_protobuf_convert/jpl_grpc_protobuf_convert.dart';
 import 'package:test/test.dart';
 
 void main() {

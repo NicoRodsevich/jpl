@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_child_builder/child_builder.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_child_builder/jpl_child_builder.dart';
 import 'package:flutter/material.dart';
 
 /// [ChildWidgetBuilder] that can be used to wrap child widgets with a

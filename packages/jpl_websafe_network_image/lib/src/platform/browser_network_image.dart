@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'package:jpl_websafe_network_image/websafe_network_image.dart';
+import 'package:jpl_websafe_network_image/jpl_websafe_network_image.dart';
 
 Widget createNetworkImage({
   Alignment alignment = Alignment.center,

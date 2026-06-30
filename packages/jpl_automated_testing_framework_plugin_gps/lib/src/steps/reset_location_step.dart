@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_gps/automated_testing_framework_plugin_gps.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_gps/jpl_automated_testing_framework_plugin_gps.dart';
 
 /// Reset's the any overrides in the [GpsPlugin].
 class ResetLocationStep extends TestRunnerStep {

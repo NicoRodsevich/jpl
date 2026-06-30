@@ -1,4 +1,4 @@
-import 'package:jpl_automated_testing_framework_models/automated_testing_framework_models.dart';
+import 'package:jpl_automated_testing_framework_models/jpl_automated_testing_framework_models.dart';
 
 /// Loader that loads the test from an in-memory object.
 class MemoryTestLoader extends TestLoader {

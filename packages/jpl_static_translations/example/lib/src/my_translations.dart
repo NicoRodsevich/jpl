@@ -1,5 +1,5 @@
 import 'package:meta/meta.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 @immutable
 class MyTranslations {

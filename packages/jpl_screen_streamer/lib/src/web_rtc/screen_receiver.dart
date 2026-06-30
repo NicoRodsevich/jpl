@@ -6,7 +6,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_webrtc/flutter_webrtc.dart';
-import 'package:jpl_screen_streamer/screen_streamer.dart';
+import 'package:jpl_screen_streamer/jpl_screen_streamer.dart';
 import 'package:logging/logging.dart';
 import 'package:sdp_transform/sdp_transform.dart';
 

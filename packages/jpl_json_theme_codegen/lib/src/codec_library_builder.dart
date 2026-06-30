@@ -6,7 +6,7 @@ import 'dart:io';
 import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/dart/element/type.dart';
 import 'package:build/build.dart';
-import 'package:jpl_json_theme_annotation/json_theme_annotation.dart';
+import 'package:jpl_json_theme_annotation/jpl_json_theme_annotation.dart';
 import 'package:jpl_json_theme_codegen/src/decoders/decoders.dart';
 import 'package:jpl_json_theme_codegen/src/decoders/encoders.dart';
 import 'package:jpl_json_theme_codegen/src/decoders/schema_decoders.dart';

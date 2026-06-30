@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:jpl_automated_testing_framework_server_websocket/automated_testing_framework_server_websocket.dart';
+import 'package:jpl_automated_testing_framework_server_websocket/jpl_automated_testing_framework_server_websocket.dart';
 import 'package:logging/logging.dart';
 
 class Application {

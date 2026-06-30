@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:http/browser_client.dart';
 import 'package:http/http.dart' as http;
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 http.Client createHttpClient({
   Proxy? proxy,

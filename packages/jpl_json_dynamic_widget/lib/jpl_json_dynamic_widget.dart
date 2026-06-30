@@ -1,19 +1,19 @@
 export 'dart:ui' show SemanticsRole;
 
-export 'package:jpl_child_builder/child_builder.dart';
-export 'package:jpl_dynamic_widget_annotation/dynamic_widget_annotation.dart';
+export 'package:jpl_child_builder/jpl_child_builder.dart';
+export 'package:jpl_dynamic_widget_annotation/jpl_dynamic_widget_annotation.dart';
 export 'package:flutter/material.dart';
 export 'package:flutter/rendering.dart';
 export 'package:flutter/services.dart';
-export 'package:jpl_json_class/json_class.dart';
-export 'package:jpl_json_theme/json_theme.dart'
+export 'package:jpl_json_class/jpl_json_class.dart';
+export 'package:jpl_json_theme/jpl_json_theme.dart'
     hide
         CardThemeDataSchema,
         DialogThemeDataSchema,
         // InputDecorationThemeSchema,
         TabBarThemeDataSchema;
 export 'package:uuid/uuid.dart';
-export 'package:jpl_yaon/yaon.dart';
+export 'package:jpl_yaon/jpl_yaon.dart';
 
 export 'builders.dart';
 export 'src/builders/json_sized_box_builder.dart';

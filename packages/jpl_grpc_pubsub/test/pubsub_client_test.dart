@@ -6,8 +6,8 @@ import 'dart:io';
 
 import 'package:grpc/grpc.dart';
 import 'package:jpl_grpc_googleapis/google/pubsub_v1.dart';
-import 'package:jpl_grpc_protobuf_convert/grpc_protobuf_convert.dart';
-import 'package:jpl_grpc_pubsub/grpc_pubsub.dart';
+import 'package:jpl_grpc_protobuf_convert/jpl_grpc_protobuf_convert.dart';
+import 'package:jpl_grpc_pubsub/jpl_grpc_pubsub.dart';
 import 'package:logging/logging.dart';
 import 'package:test/test.dart';
 

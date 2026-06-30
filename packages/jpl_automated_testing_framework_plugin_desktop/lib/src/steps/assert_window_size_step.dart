@@ -3,8 +3,8 @@ import 'dart:ui';
 
 import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/foundation.dart';
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Set's the application's desktop window to a given size.
 class AssertWindowSizeStep extends TestRunnerStep {

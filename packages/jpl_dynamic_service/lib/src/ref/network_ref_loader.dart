@@ -1,7 +1,7 @@
 import 'dart:convert';
 
-import 'package:jpl_dynamic_service/dynamic_service.dart';
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 class NetworkRefLoader extends RegExpRefLoader {
   NetworkRefLoader({

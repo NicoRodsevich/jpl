@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpl_websafe_platform/websafe_platform.dart';
+import 'package:jpl_websafe_platform/jpl_websafe_platform.dart';
 
 void main() {
   runApp(MyApp());

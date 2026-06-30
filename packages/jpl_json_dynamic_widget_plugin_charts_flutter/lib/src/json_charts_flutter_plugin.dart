@@ -1,5 +1,5 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/json_dynamic_widget_plugin_charts_flutter.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/jpl_json_dynamic_widget_plugin_charts_flutter.dart';
 
 import 'schema/json_charts_flutter_schemas.dart';
 import 'values/create_series_function.dart';

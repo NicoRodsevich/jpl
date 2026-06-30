@@ -2,7 +2,7 @@ import 'package:jpl_community_parade/src/components/app_bootstrap_widget.dart';
 import 'package:jpl_community_parade/src/components/bootstrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
-// import 'package:jpl_rest_client/rest_client.dart';
+// import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 void main() {
   Logger.root.level = Level.INFO;

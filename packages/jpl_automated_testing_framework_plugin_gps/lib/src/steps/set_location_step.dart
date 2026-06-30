@@ -1,7 +1,7 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_gps/automated_testing_framework_plugin_gps.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_gps/jpl_automated_testing_framework_plugin_gps.dart';
 import 'package:geolocator/geolocator.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Set's the device's location status.  As a note, this will not actually
 /// change the location as reported by the device.  Instead, it sets the value

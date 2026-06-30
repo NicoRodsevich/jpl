@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 import 'package:english_words/english_words.dart';
-import 'package:jpl_flexible_table/flexible_table.dart';
+import 'package:jpl_flexible_table/jpl_flexible_table.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

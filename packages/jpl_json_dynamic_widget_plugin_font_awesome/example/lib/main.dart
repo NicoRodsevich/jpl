@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:jpl_font_awesome_flutter_named/font_awesome_flutter_named.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_font_awesome/json_dynamic_widget_plugin_font_awesome.dart';
+import 'package:jpl_font_awesome_flutter_named/jpl_font_awesome_flutter_named.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_font_awesome/jpl_json_dynamic_widget_plugin_font_awesome.dart';
 import 'package:logging/logging.dart';
 
 void main() async {

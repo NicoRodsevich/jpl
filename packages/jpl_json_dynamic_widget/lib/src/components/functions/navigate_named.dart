@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 /// The `navigate_named` function requires that the [navigatorKey] has been set on
 /// the registry before it is used or an exception will be thrown.

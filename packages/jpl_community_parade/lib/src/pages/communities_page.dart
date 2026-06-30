@@ -13,7 +13,7 @@ import 'package:jpl_community_parade/src/translations/app_translations.dart';
 import 'package:flutter/material.dart';
 import 'package:logging/logging.dart';
 import 'package:provider/provider.dart';
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 class CommunitiesPage extends StatefulWidget {
   CommunitiesPage({

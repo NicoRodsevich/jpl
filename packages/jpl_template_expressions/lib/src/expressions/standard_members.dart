@@ -3,11 +3,11 @@ import 'dart:typed_data';
 
 import 'package:convert/convert.dart';
 import 'package:intl/intl.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:json_path/json_path.dart';
 import 'package:logging/logging.dart';
-import 'package:jpl_template_expressions/template_expressions.dart';
-import 'package:jpl_yaon/yaon.dart';
+import 'package:jpl_template_expressions/jpl_template_expressions.dart';
+import 'package:jpl_yaon/jpl_yaon.dart';
 
 /// Associates member functions from common objects for use by the expression
 /// evaluator.

@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:jpl_json_dynamic_widget/src/components/functions/dynamic.dart';
 import 'package:jpl_json_dynamic_widget/src/components/functions/for_each.dart';
 import 'package:jpl_json_dynamic_widget/src/components/functions/length.dart';

@@ -1,6 +1,6 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_firebase/automated_testing_framework_plugin_firebase.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_firebase/jpl_automated_testing_framework_plugin_firebase.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Test step that asserts that the value equals (or does not equal) a specific
 /// value.

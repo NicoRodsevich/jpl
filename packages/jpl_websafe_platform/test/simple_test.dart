@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:jpl_websafe_platform/websafe_platform.dart';
+import 'package:jpl_websafe_platform/jpl_websafe_platform.dart';
 
 void main() {
   group('mock', () {

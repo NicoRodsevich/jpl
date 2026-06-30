@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Step that double-taps a [Testable] widget.
 class DoubleTapStep extends TestRunnerStep {

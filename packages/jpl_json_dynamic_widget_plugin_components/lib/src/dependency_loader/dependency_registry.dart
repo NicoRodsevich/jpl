@@ -1,6 +1,6 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
-import '../../json_dynamic_widget_plugin_components.dart';
+import '../../jpl_json_dynamic_widget_plugin_components.dart';
 
 /// A registry that holds the used dependency loader and version resolver
 class DependencyRegistry {

@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:jpl_json_dynamic_widget_plugin_components/src/builder/component_spec.dart';
 import 'package:jpl_json_dynamic_widget_plugin_components/src/dependency_loader/dependency.dart';
 

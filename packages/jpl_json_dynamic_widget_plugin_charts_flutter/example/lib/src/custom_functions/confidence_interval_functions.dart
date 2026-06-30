@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/json_dynamic_widget_plugin_charts_flutter.dart';
+import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/jpl_json_dynamic_widget_plugin_charts_flutter.dart';
 
 class ConfidenceIntervalFunctions {
   static final Map<String, dynamic> functions = {

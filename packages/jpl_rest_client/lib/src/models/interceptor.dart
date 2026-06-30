@@ -1,4 +1,4 @@
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 /// An request / response interceptor that can modify a [Request], intercept a
 /// [Request], or modify a [Response].

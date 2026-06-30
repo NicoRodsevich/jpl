@@ -1,9 +1,9 @@
 import 'dart:typed_data';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_json_class/json_class.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Generic test store that provies no-op implementations of all the test
 /// storage functions.

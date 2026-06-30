@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 
 /// Simple test step that will sleep for a given period of time.
 class SleepStep extends TestRunnerStep {

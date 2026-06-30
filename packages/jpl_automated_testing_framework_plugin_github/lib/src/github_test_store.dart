@@ -4,7 +4,7 @@ import 'dart:typed_data';
 import 'package:convert/convert.dart';
 import 'package:flutter/material.dart';
 import 'package:github/github.dart';
-import 'package:jpl_automated_testing_framework_models/automated_testing_framework_models.dart';
+import 'package:jpl_automated_testing_framework_models/jpl_automated_testing_framework_models.dart';
 import 'package:logging/logging.dart';
 import 'package:pointycastle/pointycastle.dart';
 

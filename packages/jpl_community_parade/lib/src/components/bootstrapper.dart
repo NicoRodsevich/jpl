@@ -11,7 +11,7 @@ import 'package:jpl_community_parade/src/bloc/translations_bloc.dart';
 import 'package:jpl_community_parade/src/bloc/user_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 class Bootstrapper {
   Bootstrapper({

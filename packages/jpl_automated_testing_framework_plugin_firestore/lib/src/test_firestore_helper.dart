@@ -1,12 +1,12 @@
 import 'dart:convert';
 
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_firestore/automated_testing_framework_plugin_firestore.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_firestore/jpl_automated_testing_framework_plugin_firestore.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:jpl_form_validation/form_validation.dart';
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 /// Helper for the Firestore reference that the automated testing framework will
 /// use when running the tests.  Set the static [firestore] value to the one to

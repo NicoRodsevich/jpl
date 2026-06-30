@@ -1,4 +1,4 @@
-import 'package:jpl_static_translations/static_translations.dart';
+import 'package:jpl_static_translations/jpl_static_translations.dart';
 
 class TestStringsTranslations {
   static const atf_strings_error_date = TranslationEntry(

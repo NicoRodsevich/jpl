@@ -1,5 +1,5 @@
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_font_awesome/json_dynamic_widget_plugin_font_awesome.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_font_awesome/jpl_json_dynamic_widget_plugin_font_awesome.dart';
 
 part 'json_font_awesome_plugin_registrar.g.dart';
 

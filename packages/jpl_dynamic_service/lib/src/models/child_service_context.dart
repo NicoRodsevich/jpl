@@ -1,5 +1,5 @@
 import 'package:collection/collection.dart';
-import 'package:jpl_dynamic_service/dynamic_service.dart';
+import 'package:jpl_dynamic_service/jpl_dynamic_service.dart';
 
 /// Context that is able to have it's own unique set of variables, but supports
 /// providing variables from a parent context.

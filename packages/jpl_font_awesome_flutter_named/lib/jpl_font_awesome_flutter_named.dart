@@ -1,5 +1,5 @@
 // ignore_for_file: deprecated_member_use
-library font_awesome_flutter_named;
+library;
 
 import 'package:flutter/widgets.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';

@@ -1,8 +1,8 @@
 import 'dart:convert';
 
 import 'package:community_charts_flutter/community_charts_flutter.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
-import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/json_dynamic_widget_plugin_charts_flutter.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/jpl_json_dynamic_widget_plugin_charts_flutter.dart';
 import 'package:json_path/json_path.dart';
 import 'package:logging/logging.dart';
 

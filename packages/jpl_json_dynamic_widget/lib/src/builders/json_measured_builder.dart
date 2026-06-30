@@ -1,5 +1,5 @@
 import 'package:flutter/scheduler.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 
 part 'json_measured_builder.g.dart';
 

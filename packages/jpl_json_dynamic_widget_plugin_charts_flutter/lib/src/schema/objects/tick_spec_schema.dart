@@ -1,4 +1,4 @@
-import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/json_dynamic_widget_plugin_charts_flutter.dart';
+import 'package:jpl_json_dynamic_widget_plugin_charts_flutter/jpl_json_dynamic_widget_plugin_charts_flutter.dart';
 import 'package:jpl_json_theme/json_theme_schemas.dart';
 
 class TickSpecSchema {

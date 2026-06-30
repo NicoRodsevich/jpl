@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:jpl_ionicons_named/ionicons_named.dart';
+import 'package:jpl_ionicons_named/jpl_ionicons_named.dart';
 
 import 'example_icon.dart';
 

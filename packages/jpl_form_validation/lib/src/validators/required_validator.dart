@@ -1,5 +1,5 @@
-import 'package:jpl_form_validation/form_validation.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_form_validation/jpl_form_validation.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:meta/meta.dart';
 
 /// A validator that ensures the value is non-`null` and non-empty.

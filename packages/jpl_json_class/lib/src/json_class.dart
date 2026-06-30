@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:intl/intl.dart';
-import 'package:jpl_json_class/json_class.dart';
+import 'package:jpl_json_class/jpl_json_class.dart';
 import 'package:logging/logging.dart';
 
 /// Abstract class that other classes should extend to provide conversion to or

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
+import 'package:jpl_json_dynamic_widget/jpl_json_dynamic_widget.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/bloc/sembast_bloc.dart';
 import 'package:jpl_json_dynamic_widget_builder/src/models/key_value_pair.dart';
 import 'package:provider/provider.dart';

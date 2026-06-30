@@ -1,4 +1,4 @@
-export 'package:jpl_automated_testing_framework_models/automated_testing_framework_models.dart';
+export 'package:jpl_automated_testing_framework_models/jpl_automated_testing_framework_models.dart';
 
 //
 export 'src/driver/components/test_driver.dart';

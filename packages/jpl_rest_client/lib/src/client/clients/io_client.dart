@@ -4,7 +4,7 @@ import 'dart:isolate';
 
 import 'package:http/http.dart' as http;
 import 'package:http/io_client.dart';
-import 'package:jpl_rest_client/rest_client.dart';
+import 'package:jpl_rest_client/jpl_rest_client.dart';
 
 http.Client createHttpClient({
   Proxy? proxy,

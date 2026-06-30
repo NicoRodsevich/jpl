@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:jpl_json_theme/json_theme.dart';
+import 'package:jpl_json_theme/jpl_json_theme.dart';
 import 'package:logging/logging.dart';
 
 void main() {

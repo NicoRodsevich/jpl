@@ -1,5 +1,5 @@
-import 'package:jpl_automated_testing_framework/automated_testing_framework.dart';
-import 'package:jpl_automated_testing_framework_plugin_flow_control/automated_testing_framework_plugin_flow_control.dart';
+import 'package:jpl_automated_testing_framework/jpl_automated_testing_framework.dart';
+import 'package:jpl_automated_testing_framework_plugin_flow_control/jpl_automated_testing_framework_plugin_flow_control.dart';
 
 /// Looks for a function registered as [variableName].  The function must have
 /// a function signature of [TestVariableFunction].  The result of executing the
