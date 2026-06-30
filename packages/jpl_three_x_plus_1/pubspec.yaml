@@ -1,4 +1,5 @@
 name: jpl_three_x_plus_1
+publish_to: none
 description: A simple set of widgets to demonstrate the mathmatical 3x + 1 conjecture.
 
 version: 1.0.0

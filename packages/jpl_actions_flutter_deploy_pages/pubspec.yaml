@@ -1,4 +1,5 @@
 name: jpl_actions_flutter_deploy_pages
+description: "CLI para desplegar aplicaciones Flutter web a GitHub Pages. Fork de actions-flutter-deploy-pages (Jeff Peiffer Legacy)."
 version: '1.15.3'
 homepage: https://github.com/NicoRodsevich/jpl
 repository: https://github.com/NicoRodsevich/jpl/tree/main/packages/jpl_actions_flutter_deploy_pages

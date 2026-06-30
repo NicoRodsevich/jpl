@@ -1,4 +1,5 @@
 name: jpl_json_dynamic_widget_annotations
+publish_to: none
 description: 'Annotations for the json_dynamic_widget library.'
 version: '1.0.0+11'
 homepage: https://github.com/NicoRodsevich/jpl
