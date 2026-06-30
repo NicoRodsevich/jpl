@@ -1,4 +1,4 @@
-import 'package:community_charts_flutter/flutter.dart' as charts;
+import 'package:community_charts_flutter/community_charts_flutter.dart' as charts;
 import 'package:jpl_json_dynamic_widget/json_dynamic_widget.dart';
 
 class SelectionCallbackFunctions {

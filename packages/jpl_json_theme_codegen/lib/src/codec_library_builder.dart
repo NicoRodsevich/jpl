@@ -17,32 +17,32 @@ const _deprecatedChecker = TypeChecker.typeNamed(Deprecated);
 
 const _enumChecker = TypeChecker.typeNamed(
   CodecEnum,
-  inPackage: 'json_theme_annotation',
+  inPackage: 'jpl_json_theme_annotation',
 );
 
 const _ignoreChecker = TypeChecker.typeNamed(
   CodecIgnore,
-  inPackage: 'json_theme_annotation',
+  inPackage: 'jpl_json_theme_annotation',
 );
 
 const _codecSchemaChecker = TypeChecker.typeNamed(
   CodecSchema,
-  inPackage: 'json_theme_annotation',
+  inPackage: 'jpl_json_theme_annotation',
 );
 
 const _codecDefaultValueChecker = TypeChecker.typeNamed(
   CodecDefaultValue,
-  inPackage: 'json_theme_annotation',
+  inPackage: 'jpl_json_theme_annotation',
 );
 
 const _paramTypesChecker = TypeChecker.typeNamed(
   CodecParamType,
-  inPackage: 'json_theme_annotation',
+  inPackage: 'jpl_json_theme_annotation',
 );
 
 const _unencodableChecker = TypeChecker.typeNamed(
   CodecUnencodable,
-  inPackage: 'json_theme_annotation',
+  inPackage: 'jpl_json_theme_annotation',
 );
 
 String? _flutterVersion;
